@@ -61,6 +61,10 @@ pocsuite3
 - 🎯 cve-2020-25540(thinkadmin 目录遍历/任意文件读取漏洞)
 - 🎯 cnvd-2020-33163
 
+## Typecho
+- 🎯 Typecho v1.0 SSRF漏洞- xmlrpc ```2021-01-11```
+- 🎯 cve-2018-18753(Typecho v1.1 反序列化漏洞-install.php)
+
 ## [w7(微擎)](https://www.w7.cc/)
 - 🎯 微擎 v0.7 SQL注入漏洞-notify.php ```2021-01-08```
 

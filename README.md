@@ -49,6 +49,9 @@ pocsuite3
 - 🎯 cve-xxx-xxxx(Resin 任意文件读取漏洞-inputFile)
 - 🎯  cve-xxx-xxxx(Resin SSRF漏洞-inputFile)
 
+## [RuiJie(锐捷)](https://www.ruijiery.com/)
+- 🎯 RG-EG系列(锐捷易网络网关通杀Getshell-/guest_auth/guestIsUp.php) ```2021-01-12```
+
 ## Spring
 - 🎯 [cve-xxxx-xxxx(SpringBoot Actuator未授权访问漏洞)](https://xz.aliyun.com/t/2233)
 - 🎯 cve-2018-1271(Spring MVC目录穿越/遍历漏洞) 

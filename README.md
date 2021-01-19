@@ -25,6 +25,10 @@ pocsuite3
 - 🎯 wooyun-2015-0101419
 - 🎯 wooyun-2015-0135406
 
+## F5 BIG-IP
+- 🎯 [cve-2020-5902(F5 BIG-IP远程代码执行漏洞)](https://xz.aliyun.com/t/8008)
+
+
 ## Lanproxy
 - 🎯 [cve-2020-3019 (lanproxy 目录遍历/任意文件读取漏洞)](https://github.com/maybe-why-not/lanproxy/issues/1) ```2021-01-09```
 
@@ -93,6 +97,9 @@ pocsuite3
 - 🎯 cnvd-2020-59520(泛微e-bridge 目录遍历/任意文件读取漏洞)
 - 🎯 cnvd-xxxx-xxxxx(泛微OA 数据库配置信息泄露漏洞-DBconfigReader.jsp)
 - 🎯 cnvd-xxxx-xxxxx(泛微OA 日志信息泄露漏洞-gethrmkq.jsp) ```2021-01-08```
+
+## Weblogic
+- 🎯 [cve-2020-14882/cve-2020-14883(WebLogic 未授权命令执行漏洞)](https://github.com/vulhub/vulhub/tree/master/weblogic/CVE-2020-14882)
 
 ## Webmin
 - 🎯 [cve-2018-8712(Webmin 任意文件读取漏洞)](https://www.7elements.co.uk/resources/technical-advisories/webmin-1-840-1-880-unrestricted-access-arbitrary-files-using-local-file-include/)

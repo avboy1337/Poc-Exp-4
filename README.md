@@ -26,8 +26,7 @@ pocsuite3
 - 🎯 wooyun-2015-0135406
 
 ## F5 BIG-IP
-- 🎯 [cve-2020-5902(F5 BIG-IP远程代码执行漏洞)](https://xz.aliyun.com/t/8008)
-
+- 🎯 [cve-2020-5902(F5 BIG-IP远程代码执行漏洞)](https://xz.aliyun.com/t/8008) ```2021-01-21```
 
 ## Lanproxy
 - 🎯 [cve-2020-3019 (lanproxy 目录遍历/任意文件读取漏洞)](https://github.com/maybe-why-not/lanproxy/issues/1) ```2021-01-09```

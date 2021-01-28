@@ -106,6 +106,14 @@ pocsuite3
 - 🎯 cve-2020-35606(Webmin 命令执行漏洞)
 
 ## Yonyou(用友)
+- 🎯 用友人力资源管理软件（e-HR）XXE漏洞
+- 🎯 用友 FE协作办公平台1.0信息泄露漏洞
+- 🎯 用友NC 5.7 跨站脚本漏洞
+- 🎯 用友ERP-NC hrss/ELTextFile.load.d 任意文件读取漏洞
+- 🎯 用友NC本地文件包含漏洞-NCFindWeb
+- 🎯 用友NC财务系统跨站脚本漏洞
+- 🎯 用友TurboCRM /ajax/getemaildata.php 任意文件读取漏洞
+- 🎯 用友UA-PWS XXE漏洞
 - 🎯 cnvd-2020-49261(用友GRP-U8 XXE漏洞-xp_cmdshell)
 
 ## [ZSite(禅知)](https://www.zsite.com/)

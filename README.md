@@ -31,6 +31,9 @@ pocsuite3
 ## Lanproxy
 - 🎯 [cve-2020-3019 (lanproxy 目录遍历/任意文件读取漏洞)](https://github.com/maybe-why-not/lanproxy/issues/1) ```2021-01-09```
 
+## Laravel
+- 🎯 [cve-2021-3129(Laravel Debug RCE)](https://mp.weixin.qq.com/s/k08P2Uij_4ds35FxE2eh0g) ```2021-02-01```
+
 ## Jboss
 - 🎯 cve-2006-5750
 - 🎯 cve-2007-1036

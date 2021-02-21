@@ -34,6 +34,9 @@ pocsuite3
 ## Laravel
 - 🎯 [cve-2021-3129(Laravel Debug RCE)](https://mp.weixin.qq.com/s/k08P2Uij_4ds35FxE2eh0g) ```2021-02-01```
 
+## Live800
+- 🎯 Live800 downloadserver 任意文件下载漏洞 ```2021-02-02```
+
 ## Jboss
 - 🎯 cve-2006-5750
 - 🎯 cve-2007-1036
@@ -99,7 +102,9 @@ pocsuite3
 - 🎯 cnvd-2020-59520(泛微e-bridge 目录遍历/任意文件读取漏洞)
 - 🎯 cnvd-xxxx-xxxxx(泛微OA 数据库配置信息泄露漏洞-DBconfigReader.jsp)
 - 🎯 cnvd-xxxx-xxxxx(泛微OA 日志信息泄露漏洞-gethrmkq.jsp) ```2021-01-08```
-
+- 🎯 泛微OA SSRF漏洞 ```2021-01-29```
+- 🎯 泛微Eoffice 数据库配置信息泄露漏洞-mysql_config.ini ```2021-02-03```
+- 
 ## Weblogic
 - 🎯 [cve-2020-14882/cve-2020-14883(WebLogic 未授权命令执行漏洞)](https://github.com/vulhub/vulhub/tree/master/weblogic/CVE-2020-14882)
 
@@ -117,7 +122,14 @@ pocsuite3
 - 🎯 用友NC财务系统跨站脚本漏洞
 - 🎯 用友TurboCRM /ajax/getemaildata.php 任意文件读取漏洞
 - 🎯 用友UA-PWS XXE漏洞
-- 🎯 cnvd-2020-49261(用友GRP-U8 XXE漏洞-xp_cmdshell)
+- 🎯 用友 FE协作办公系统 addUser.jsp SQL注入漏洞 ```2021-02-09```
+- 🎯 用友 FE协作办公系统 codeMoreWidget.jsp SQL注入漏洞 ```2021-02-09```
+- 🎯 用友ICC客服系统 getfile.jsp 任意文件下载漏洞 ```2021-02-09```
+- 🎯 用友-ICC客服系统跨站脚本漏洞 ```2021-02-09```
+- 🎯 用友NC-IUFO系统跨站脚本漏洞 ```2021-02-09```
+- 🎯 用友TruboCRM管理系统 /background/ 三处SQL注入漏洞 ```2021-02-09```
+- 🎯 用友TruboCRM管理系统 /login/forgetpswd.php SQL注入漏洞 ```2021-02-09```
+- 🎯 cnvd-2020-49261(用友GRP-U8 SQL注入漏洞)
 
 ## [ZSite(禅知)](https://www.zsite.com/)
 - 🎯 禅知Pro v1.6 前台任意文件读取漏洞-file.php?pathname= ```2021-01-08```

@@ -79,7 +79,8 @@ pocsuite3
 
 ## VMware
 - 🎯 [cve-2021-21972(vCenter 远程命令执行漏洞)](https://swarm.ptsecurity.com/unauth-rce-vmware/)
-- 
+
+
 ## [w7(微擎)](https://www.w7.cc/)
 - 🎯 微擎 v0.7 SQL注入漏洞-notify.php ```2021-01-08```
 

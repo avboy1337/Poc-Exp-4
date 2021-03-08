@@ -25,6 +25,9 @@ pocsuite3
 - 🎯 wooyun-2015-0101419
 - 🎯 wooyun-2015-0135406
 
+## Exchange
+- 🎯 cve-2021-26855(Exchange SSRF漏洞)
+
 ## F5 BIG-IP
 - 🎯 [cve-2020-5902(F5 BIG-IP远程代码执行漏洞)](https://xz.aliyun.com/t/8008) ```2021-01-21```
 
@@ -56,11 +59,12 @@ pocsuite3
 - 🎯 cve-2006-2437(Resin 任意文件读取漏洞-viewfile)
 - 🎯 cnnvd-200705-315(Resin Windows %20 目录遍历漏洞-/%20../web-inf/)
 - 🎯 cve-xxx-xxxx(Resin 任意文件读取漏洞-inputFile)
-- 🎯  cve-xxx-xxxx(Resin SSRF漏洞-inputFile)
+- 🎯 cve-xxx-xxxx(Resin SSRF漏洞-inputFile)
 
 ## [RuiJie(锐捷)](https://www.ruijiery.com/)
 - 🎯 RG-EG系列(锐捷-EWEB网管系统命令注入-/guest_auth/guestIsUp.php) ```2021-01-21```
-
+- 🎯 cnvd-2021-14536(RG-UAC统一上网行为管理审计系统信息泄露漏洞)
+- 
 ## Spring
 - 🎯 [cve-xxxx-xxxx(SpringBoot Actuator未授权访问漏洞)](https://xz.aliyun.com/t/2233)
 - 🎯 cve-2018-1271(Spring MVC目录穿越/遍历漏洞) 

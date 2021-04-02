@@ -1,0 +1,3 @@
+method:    GET
+path:      /km/imeeting/km_imeeting_res/kmImeetingRes.do?contentType=json&method=listUse&orderby=1&ordertype=down&s_ajax=true
+parameter: ordertype

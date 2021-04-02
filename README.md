@@ -41,7 +41,8 @@ pocsuite3
 - 🎯 [CVE-2021-22986(F5 BIG-IP远程代码执行漏洞)](https://twitter.com/1ZRR4H/status/1373206181955653632) ```2021-03-20```
 ## Lanproxy
 - 🎯 [CVE-2020-3019 (lanproxy 目录遍历/任意文件读取漏洞)](https://github.com/maybe-why-not/lanproxy/issues/1) ```2021-01-09```
-
+## L-蓝凌OA
+- 🎯 [CNVD-2021-01363(蓝凌OA EKP 后台SQL注入漏洞)]()
 ## Laravel
 - 🎯 [CVE-2021-3129(Laravel Debug RCE)](https://mp.weixin.qq.com/s/k08P2Uij_4ds35FxE2eh0g) ```2021-02-01```
 

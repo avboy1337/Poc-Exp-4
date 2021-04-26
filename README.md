@@ -19,7 +19,7 @@ pocsuite3
 - 🎯 CVE-2019-3396(Atlassian Confluence 路径穿越漏洞)
 
 ## D-Link
-- 🎯 [CVE-2020-25078(D-Link DCS-2530L 敏感信息泄露漏洞)](https://github.com/0wlsec/Poc-Exp/blob/main/pocList/CVE-2020-25078.txt) `2021-04-02`
+- 🎯 [CVE-2020-25078(D-Link DCS-2530L 敏感信息泄露漏洞)](https://github.com/0wlsec/Poc-Exp/blob/main/demo/CVE-2020-25078.txt) `2021-04-02`
 
 
 

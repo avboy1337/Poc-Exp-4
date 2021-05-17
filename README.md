@@ -40,7 +40,7 @@ pocsuite3
 - 🎯 [CVE-2020-5902(F5 BIG-IP远程代码执行漏洞)](https://xz.aliyun.com/t/8008) ```2021-01-21```
 - 🎯 [CVE-2021-22986(F5 BIG-IP远程代码执行漏洞)](https://twitter.com/1ZRR4H/status/1373206181955653632) ```2021-03-20```
 
-## [RanRuan(帆软)](https://github.com/0wlsec/Poc-Exp/blob/main/demo/FanRuan%E5%B8%86%E8%BD%AF.md)
+## [F-帆软](https://github.com/0wlsec/Poc-Exp/blob/main/demo/FanRuan%E5%B8%86%E8%BD%AF.md)
 ## Lanproxy
 - 🎯 [CVE-2020-3019 (lanproxy 目录遍历/任意文件读取漏洞)](https://github.com/maybe-why-not/lanproxy/issues/1) ```2021-01-09```
 
@@ -74,7 +74,7 @@ pocsuite3
 - 🎯 CVE-xxx-xxxx(Resin 任意文件读取漏洞-inputFile)
 - 🎯 CVE-xxx-xxxx(Resin SSRF漏洞-inputFile)
 
-## [RuiJie(锐捷)](https://www.ruijiery.com/)
+## [R-锐捷)](https://www.ruijiery.com/)
 - 🎯 RG-EG系列(锐捷-EWEB网管系统命令注入-/guest_auth/guestIsUp.php) ```2021-01-21```
 - 🎯 CNVD-2021-14536(RG-UAC统一上网行为管理审计系统信息泄露漏洞)
 - 
@@ -98,19 +98,19 @@ pocsuite3
 - 🎯 [CVE-2021-21972(vCenter 远程命令执行漏洞)](https://swarm.ptsecurity.com/unauth-rce-vmware/)
 - 🎯 [CVE-2021-21975(vRealize Operations Manager SSRF)](https://github.com/0wlsec/Poc-Exp/blob/main/demo/CVE-2021-21975.txt) `2021-04-02`
 
-## [w7(微擎)](https://www.w7.cc/)
+## [W-微擎]
 - 🎯 微擎 v0.7 SQL注入漏洞-notify.php ```2021-01-08```
 
 
-## Weaver(泛微)
+## F-泛微
 
-- 🎯 [wooyun-2016-0191882(泛微OA SQL注入漏洞-HrmResourceContactEdit.jsp)](http://wy.zone.ci/bug_detail.php?wybug_id=wooyun-2016-0191882)
-- 🎯 [wooyun-2016-0178866(泛微OA 某接口任意SQL命令执行漏洞)](https://www.uedbox.com/post/13103/)
-- 🎯 [wooyun-2016-0169872(泛微OA 任意文件遍历&操作漏洞)](https://www.onebug.org/wooyundata/72008.html)
-- 🎯 [wooyun-2016-0198158(泛微OA SQL注入漏洞)](https://www.onebug.org/wooyundata/74197.html)
-- 🎯 [wooyun-2016-0198158(泛微OA 任意文件读取漏洞)](https://www.onebug.org/wooyundata/74197.html)
-- 🎯 [wooyun-2016-0169453(泛微OA SOAP注入漏洞)](https://www.uedbox.com/post/14232/)
-- 🎯 [wooyun-2016-0215533(泛微OA 数据库任意操作漏洞-xp_cmdshell)](http://wy.zone.ci/bug_detail.php?wybug_id=wooyun-2016-0215533)
+- 🎯 wooyun-2016-0191882(泛微OA SQL注入漏洞-HrmResourceContactEdit.jsp)
+- 🎯 wooyun-2016-0178866(泛微OA 某接口任意SQL命令执行漏洞)
+- 🎯 wooyun-2016-0169872(泛微OA 任意文件遍历&操作漏洞)
+- 🎯 wooyun-2016-0198158(泛微OA SQL注入漏洞)
+- 🎯 wooyun-2016-0198158(泛微OA 任意文件读取漏洞)
+- 🎯 wooyun-2016-0169453(泛微OA SOAP注入漏洞)
+- 🎯 wooyun-2016-0215533(泛微OA 数据库任意操作漏洞-xp_cmdshell)
 - 🎯 CNVD-2017-03561(泛微e-mobile login.do表达式注入漏洞)
 - 🎯 CNVD-2019-29900(泛微OA 任意文件下载漏洞)
 - 🎯 CNVD-2019-29902(泛微OA 任意文件读取漏洞)
@@ -124,16 +124,16 @@ pocsuite3
 - 🎯 CNVD-xxxx-xxxxx(泛微OA 日志信息泄露漏洞-gethrmkq.jsp) ```2021-01-08```
 - 🎯 泛微OA SSRF漏洞 ```2021-01-29```
 - 🎯 泛微Eoffice 数据库配置信息泄露漏洞-mysql_config.ini ```2021-02-03```
-- 🎯 [泛微OA 前台SQL注入漏洞-/js/hrm/getdata.jsp](https://github.com/0wlsec/Poc-Exp/blob/main/demo/OA%E6%B3%9B%E5%BE%AE.md) `2021-05-14`
+- 🎯 泛微OA 前台SQL注入漏洞-/js/hrm/getdata.jsp  `2021-05-14`
 ## Weblogic
-- 🎯 [CVE-2020-14882/CVE-2020-14883(WebLogic 未授权命令执行漏洞)](https://github.com/vulhub/vulhub/tree/master/weblogic/CVE-2020-14882)
+- 🎯 CVE-2020-14882/CVE-2020-14883(WebLogic 未授权命令执行漏洞)
 
 ## Webmin
-- 🎯 [CVE-2018-8712(Webmin 任意文件读取漏洞)](https://www.7elements.co.uk/resources/technical-advisories/webmin-1-840-1-880-unrestricted-access-arbitrary-files-using-local-file-include/)
+- 🎯 [CVE-2018-8712(Webmin 任意文件读取漏洞)
 - 🎯 [CVE-2019-15107(Webmin 命令执行漏洞)](https://github.com/jas502n/CVE-2019-15107)
 - 🎯 CVE-2020-35606(Webmin 命令执行漏洞)
 
-## Yonyou(用友)
+## [Yonyou(用友)](https://github.com/0wlsec/Poc-Exp/blob/main/demo/Yonyou.md)
 - 🎯 用友人力资源管理软件（e-HR）XXE漏洞
 - 🎯 用友 FE协作办公平台1.0信息泄露漏洞
 - 🎯 用友NC 5.7 跨站脚本漏洞

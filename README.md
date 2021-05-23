@@ -100,7 +100,7 @@ pocsuite3
 - 🎯 微擎 v0.7 SQL注入漏洞-notify.php `2021-01-08`
 
 
-## [Weaver-泛微](https://github.com/0wlsec/Poc-Exp/edit/main/demo/OA%E6%B3%9B%E5%BE%AE.md)
+## [Weaver-泛微](https://github.com/0wlsec/Poc-Exp/blob/main/demo/OA%E6%B3%9B%E5%BE%AE.md)
 - 🎯 wooyun-2016-0191882(泛微OA SQL注入漏洞-HrmResourceContactEdit.jsp)
 - 🎯 wooyun-2016-0178866(泛微OA 某接口任意SQL命令执行漏洞)
 - 🎯 wooyun-2016-0169872(泛微OA 任意文件遍历&操作漏洞)

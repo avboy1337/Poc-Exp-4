@@ -139,7 +139,7 @@
 - 🎯 泛微 OA V9 uploadOperation.jsp 文件上传漏洞 `2021-05`
 - 🎯 泛微 OA WorkflowServiceXml 绕过访问限制漏洞(RCE) `2021-05`
 - 🎯 泛微 OA 任意文件上传漏洞-cloudstore `2021-05`
-- 🎯 泛微OA v8 任意文件下载漏洞 `2021-06`
+- 🎯 泛微 OA v8 任意文件下载漏洞 `2021-06`
 
 ## Phpstudy
 - 🎯 phpstudy backdoor

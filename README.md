@@ -1,5 +1,4 @@
-# Poc-Exp
-记录在漏洞复现/研究过程中编写的 PoC/Exp
+# pocExp
 
 已写应用
 - [Apache Flink](https://github.com/0wlsec/Poc-Exp/#apache-flink)

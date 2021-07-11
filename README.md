@@ -1,6 +1,39 @@
 # Poc-Exp
 记录在漏洞复现/研究过程中编写的 PoC/Exp
 
+已写应用
+- [Apache Flink](https://github.com/0wlsec/Poc-Exp/#apache-flink)
+- [Apache OFBiz](https://github.com/0wlsec/Poc-Exp/#apache--ofbiz)
+- [Citrix](https://github.com/0wlsec/Poc-Exp/#citrix)
+- [Coremail](https://github.com/0wlsec/Poc-Exp/#coremail)
+- [Confluence](https://github.com/0wlsec/Poc-Exp/#confluence)
+- [D-Link](https://github.com/0wlsec/Poc-Exp/#d-link)
+- [Eyou-亿邮](https://github.com/0wlsec/Poc-Exp/#eyou-%E4%BA%BF%E9%82%AE)
+- [Exchange](https://github.com/0wlsec/Poc-Exp/#exchange)
+- [F5 BIG-IP](https://github.com/0wlsec/Poc-Exp/#f5-big-ip)
+- [FineReport-帆软](https://github.com/0wlsec/Poc-Exp/#finereport-%E5%B8%86%E8%BD%AF)
+- [Gitlab](https://github.com/0wlsec/Poc-Exp/#gitlab)
+- [H3C](https://github.com/0wlsec/Poc-Exp/#h3c)
+- [Lanproxy](https://github.com/0wlsec/Poc-Exp/#lanproxy)
+- [Laravel](https://github.com/0wlsec/Poc-Exp/#laravel)
+- [Live800](https://github.com/0wlsec/Poc-Exp/#live800)
+- [Jboss](https://github.com/0wlsec/Poc-Exp/#jboss)
+- [Jellyfin](https://github.com/0wlsec/Poc-Exp/#jellyfin)
+- [OA-金和](https://github.com/0wlsec/Poc-Exp/#oa-%E9%87%91%E5%92%8C)
+- [OA-蓝凌](https://github.com/0wlsec/Poc-Exp/#oa-%E8%93%9D%E5%87%8C)
+- [OA-泛微](https://github.com/0wlsec/Poc-Exp/#oa-weaver-%E6%B3%9B%E5%BE%AE)
+- [Phpstudy](https://github.com/0wlsec/Poc-Exp/#phpstudy)
+- [Q-齐治堡垒机](https://github.com/0wlsec/Poc-Exp/#q-%E9%BD%90%E6%B2%BB%E5%A0%A1%E5%9E%92%E6%9C%BA)
+- [Ruijie-锐捷](https://github.com/0wlsec/Poc-Exp/#ruijie-%E9%94%90%E6%8D%B7)
+- [Spring](https://github.com/0wlsec/Poc-Exp/#spring)
+- [Thinkadmin](https://github.com/0wlsec/Poc-Exp/#thinkadmin)
+- [T-360天擎](https://github.com/0wlsec/Poc-Exp/#t-360%E5%A4%A9%E6%93%8E)
+- [Typecho](https://github.com/0wlsec/Poc-Exp/#typecho)
+- [VMware](https://github.com/0wlsec/Poc-Exp/#vmware)
+- [Weblogic](https://github.com/0wlsec/Poc-Exp/#weblogic)
+- [Yonyou-用友](https://github.com/0wlsec/Poc-Exp/#yonyou-%E7%94%A8%E5%8F%8B)
+
+
 
 ## Apache Flink
 - 🎯 CVE-2020-17518(Apache Flink 目录遍历/文件写入漏洞-Upload) `2021-01`
@@ -12,8 +45,6 @@
 
 ## Citrix
 - 🎯 CVE-2020-8209(Citrix XenMobile 目录遍历/任意文件读取漏洞)
-- 🎯
-
 
 ## Coremail
 - 🎯 Coremail 邮件系统 action.jsp 任意文件上传漏洞 `2021-05`
@@ -26,7 +57,7 @@
 - 🎯 CVE-2020-25078(D-Link DCS-2530L 敏感信息泄露漏洞) `2021-04`
 
 ## Eyou-亿邮
-- 🎯
+- 🎯 
 
 ## Exchange
 - 🎯 CVE-2021-26855(Exchange SSRF漏洞)
@@ -56,8 +87,6 @@
 ## Laravel
 - 🎯 [CVE-2021-3129(Laravel Debug RCE)](https://mp.weixin.qq.com/s/k08P2Uij_4ds35FxE2eh0g) `2021-02`
 
-
-- 
 ## Live800
 - 🎯 Live800 downloadserver 任意文件下载漏洞 `2021-02`
 
@@ -74,11 +103,9 @@
 
 ## Jellyfin
 - 🎯 Jellyfin 任意文件读取漏洞(CVE-2021-21402) `2021-05`
-- 🎯 
 
 ## OA-金和
-- 🎯 金和OA C6 管理员默认口令 `2021-05`
-- 🎯 
+- 🎯 金和OA C6 管理员默认口令 `2021-05` 
 
 ## OA-蓝凌
 - 🎯 CNVD-2021-01363(蓝凌OA EKP 后台SQL注入漏洞) `2021-04`
@@ -180,7 +207,7 @@
 - 🎯 用友 U8 OA test.jsp SQL注入漏洞 `2021-05`
 - 🎯 用友 NC6.5 任意文件上传漏洞-FileReceiveServlet 
 - 🎯 用友 NC 反序列化漏洞
-- 🎯
+
 
 
 

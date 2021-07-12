@@ -161,8 +161,12 @@
 - 🎯 CVE-2020-5412(Spring Cloud Netflix Hystrix Dashboard SSRF漏洞-proxy.stream) `2021-01`
 
 ## Thinkadmin
-- 🎯 CVE-2020-25540(thinkadmin 目录遍历/任意文件读取漏洞)
+- 🎯 CVE-2020-25540(目录遍历/任意文件读取漏洞)
 - 🎯 CNVD-2020-33163
+
+## ThinkPHP 3.x
+- 🎯 ThinkPHP3.2.x RCE(文件包含->RCE)
+
 
 ## T-360天擎
 - 🎯 360天擎 SQL注入漏洞 `2021-05`

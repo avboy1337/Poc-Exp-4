@@ -142,6 +142,8 @@
 - 🎯 泛微 OA WorkflowServiceXml 绕过访问限制漏洞(RCE) `2021-05`
 - 🎯 泛微 OA 任意文件上传漏洞-cloudstore `2021-05`
 - 🎯 泛微 OA v8 任意文件下载漏洞 `2021-06`
+- 🎯 泛微 OA 任意文件上传漏洞-KtreeUploadAction `2021-07`
+- 🎯 泛微 OA 任意文件上传漏洞-ExcelUploadServlet `2021-07`
 
 ## Phpstudy
 - 🎯 phpstudy backdoor

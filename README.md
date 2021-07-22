@@ -13,6 +13,7 @@
 - [FineReport-帆软](https://github.com/0wlsec/Poc-Exp/#finereport-%E5%B8%86%E8%BD%AF)
 - [Gitlab](https://github.com/0wlsec/Poc-Exp/#gitlab)
 - [H3C](https://github.com/0wlsec/Poc-Exp/#h3c)
+- [K-金蝶]()
 - [Lanproxy](https://github.com/0wlsec/Poc-Exp/#lanproxy)
 - [Laravel](https://github.com/0wlsec/Poc-Exp/#laravel)
 - [Live800](https://github.com/0wlsec/Poc-Exp/#live800)
@@ -83,7 +84,11 @@
 - 🎯 H3C IMC dynamiccontent.properties.xhtm 远程命令执行漏洞 `2021-05`
 - 🎯 H3C 下一代防火墙任意文件读取漏洞 `2021-05`
 - 🎯 H3C SecPath 运维审计系统 任意用户登录漏洞 `2021-05`
-- 🎯
+
+
+## K-金蝶
+- 🎯 金蝶EAS server_file 目录遍历漏洞
+
 
 ## Lanproxy
 - 🎯 CVE-2020-3019 (lanproxy 目录遍历/任意文件读取漏洞) `2021-01`
@@ -110,6 +115,8 @@
 
 ## OA-金和
 - 🎯 金和OA C6 管理员默认口令 `2021-05` 
+- 🎯 金和OA C6 download.asp 任意文件下载漏洞 `2021-07`
+
 
 ## OA-蓝凌
 - 🎯 CNVD-2021-01363(蓝凌OA EKP 后台SQL注入漏洞) `2021-04`

@@ -13,7 +13,7 @@
 - [FineReport-帆软](https://github.com/0wlsec/Poc-Exp/#finereport-%E5%B8%86%E8%BD%AF)
 - [Gitlab](https://github.com/0wlsec/Poc-Exp/#gitlab)
 - [H3C](https://github.com/0wlsec/Poc-Exp/#h3c)
-- [K-金蝶]()
+- [K-金蝶](https://github.com/0wlsec/Poc-Exp/blob/main/README.md#k-%E9%87%91%E8%9D%B6)
 - [Lanproxy](https://github.com/0wlsec/Poc-Exp/#lanproxy)
 - [Laravel](https://github.com/0wlsec/Poc-Exp/#laravel)
 - [Live800](https://github.com/0wlsec/Poc-Exp/#live800)

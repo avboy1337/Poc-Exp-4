@@ -19,6 +19,7 @@
 - [Live800](https://github.com/0wlsec/Poc-Exp/#live800)
 - [Jboss](https://github.com/0wlsec/Poc-Exp/#jboss)
 - [Jellyfin](https://github.com/0wlsec/Poc-Exp/#jellyfin)
+- [Jetty](https://github.com/0wlsec/Poc-Exp/#jetty)
 - [OA-金和](https://github.com/0wlsec/Poc-Exp/#oa-%E9%87%91%E5%92%8C)
 - [OA-蓝凌](https://github.com/0wlsec/Poc-Exp/#oa-%E8%93%9D%E5%87%8C)
 - [OA-泛微](https://github.com/0wlsec/Poc-Exp/#oa-weaver-%E6%B3%9B%E5%BE%AE)
@@ -112,6 +113,10 @@
 
 ## Jellyfin
 - 🎯 Jellyfin 任意文件读取漏洞(CVE-2021-21402) `2021-05`
+
+## Jetty
+- 🎯 Jetty URI路径限制绕过漏洞（CVE-2021-28169）
+- 🎯 Jetty URI路径限制绕过漏洞（CVE-2021-28164）
 
 ## OA-金和
 - 🎯 金和OA C6 管理员默认口令 `2021-05` 

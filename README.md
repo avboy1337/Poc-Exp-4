@@ -168,6 +168,25 @@
 - 🎯 然之协同系统 v4.6.1 喧喧聊天系统 RCE
 
 ## OA-致远
+- 🎯 致远OA Session泄露漏洞-/yyoa/ext/https/getSessionList.jsp
+- 🎯 致远OA 帆软报表组件 前台XXE漏洞
+- 🎯 致远OA 帆软报表v8.0 后台文件上传漏洞
+- 🎯 致远OA A6 信息泄露漏洞-createMysql
+- 🎯 致远OA A6 信息泄露漏洞-DownExcelBeanServlet
+- 🎯 致远OA A6 信息泄露漏洞-initDataAssess
+- 🎯 致远OA A6 setextno.jsp SQL注入漏洞
+- 🎯 致远OA A6 test.jsp SQL注入漏洞
+- 🎯 致远OA A6 search_result.jsp SQL注入漏洞
+- 🎯 致远OA A6 webmail.do 任意文件下载漏洞
+- 🎯 致远OA A8 任意用户密码修改漏洞
+- 🎯 致远OA A8 用户名&密码枚举漏洞-/seeyon/getAjaxDataServlet
+- 🎯 致远OA A8 任意文件读取漏洞-/seeyon/management/status.jsp
+- 🎯 致远OA A8 远程代码执行漏洞-htmlofficeservlet
+- 🎯 致远OA ajax.do 未授权访问+任意文件上传漏洞
+- 🎯 致远OA Cookie泄露+任意文件上传漏洞
+- 🎯 致远OA Fastjson 反序列化漏洞
+
+
 
 ## OA-通达
 

@@ -62,6 +62,16 @@
 
 ## D-Link
 - 🎯 CVE-2020-25078(D-Link DCS-2530L 敏感信息泄露漏洞) `2021-04`
+- 🎯 CVE-2018-6530(D-Link 远程命令执行漏洞)
+- 🎯 CVE-2019-7297(D-Link DIR-823G 命令注入漏洞)
+- 🎯 CVE-2019-7298(D-Link DIR-823G 命令注入漏洞)
+- 🎯 CVE-2019-13128(D-Link DIR-823G 命令注入漏洞)
+- 🎯 CVE-2019-15529(D-Link DIR-823G 命令注入漏洞)
+- 🎯 CVE-2019-17621(D-Link DIR-859 远程代码执行漏洞)
+- 🎯 CNVD-2018-01084(D-Link DIR-615/645/815 命令注入漏洞)
+- 🎯 CVE-2018-17063(D-Link DIR-816 A2 命令注入漏洞)
+- 🎯 CVE-2020-24581(D-link DSL-2888A 远程代码执行)
+
 
 ## ECShop
 - 🎯 ECShop v2.x/3.x 远程代码执行漏洞
@@ -71,7 +81,7 @@
 
 
 ## Eyou-亿邮
-- 🎯 
+- 🎯 亿邮 远程命令执行漏洞-/webadm/?q=moni_detail.do&action=gragh
 
 ## Exchange
 - 🎯 CVE-2021-26855(Exchange SSRF漏洞)
@@ -103,7 +113,7 @@
 - 🎯 CVE-2020-3019 (lanproxy 目录遍历/任意文件读取漏洞) `2021-01`
 
 ## Laravel
-- 🎯 [CVE-2021-3129(Laravel Debug RCE)](https://mp.weixin.qq.com/s/k08P2Uij_4ds35FxE2eh0g) `2021-02`
+- 🎯 CVE-2021-3129(Laravel Debug RCE) `2021-02`
 
 ## Live800
 - 🎯 Live800 downloadserver 任意文件下载漏洞 `2021-02`

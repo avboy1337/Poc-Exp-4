@@ -62,6 +62,13 @@
 ## D-Link
 - 🎯 CVE-2020-25078(D-Link DCS-2530L 敏感信息泄露漏洞) `2021-04`
 
+## ECShop
+- 🎯 ECShop v2.x/3.x 远程代码执行漏洞
+- 🎯 ECShop v3.0 SQL注入漏洞-flow.php 
+- 🎯 ECShop v2.6.1 SQL注入漏洞-uc.php
+- 🎯 ECShop v4.1.0 SQL注入漏洞-/ecshop/delete_cart_goods.php
+
+
 ## Eyou-亿邮
 - 🎯 
 
@@ -76,7 +83,7 @@
 - 🎯 帆软报表 2012 信息泄露漏洞 `2021-05`
 - 🎯 帆软报表 回显SSRF/任意文件读取漏洞 `2021-05` 
 - 🎯 帆软报表 v8 任意文件读取漏洞(CNVD-2018-04757) `2021-05` 
-- 🎯 帆软报表 V9 任意文件上传(非覆盖-CNVD-2021-34467) `2021-05`
+- 🎯 帆软报表 v9 任意文件上传(非覆盖-CNVD-2021-34467) `2021-05`
 
 ## Gitlab
 - 🎯 Gitlab CI Lint API未授权 SSRF漏洞(CVE-2021-22214)

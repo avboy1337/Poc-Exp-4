@@ -21,6 +21,7 @@
 - [Jboss](https://github.com/0wlsec/Poc-Exp/#jboss)
 - [Jellyfin](https://github.com/0wlsec/Poc-Exp/#jellyfin)
 - [Jetty](https://github.com/0wlsec/Poc-Exp/#jetty)
+- [Jira](https://github.com/0wlsec/Poc-Exp/#jira)
 - [J-金山终端安全系统]()
 - [OA-金和](https://github.com/0wlsec/Poc-Exp/#oa-%E9%87%91%E5%92%8C)
 - [OA-蓝凌](https://github.com/0wlsec/Poc-Exp/#oa-%E8%93%9D%E5%87%8C)
@@ -136,6 +137,18 @@
 ## Jetty
 - 🎯 Jetty URI路径限制绕过漏洞（CVE-2021-28169）
 - 🎯 Jetty URI路径限制绕过漏洞（CVE-2021-28164）
+
+## Jira
+- 🎯 CVE-2021-26086 (Jira 文件读取漏洞)
+- 🎯 CVE-2021-26085 (Jira 文件读取漏洞)
+- 🎯 CVE-2020-29453 (Jira 文件读取漏洞)
+- 🎯 CVE-2020-14181 (Jira 用户名枚举漏洞)
+- 🎯 CVE-2019-8451 (Jira 未授权SSRF漏洞)
+- 🎯 CVE-2019-8442 (Jira 未授权+信息泄露漏洞)
+- 🎯 CVE-2019-3402 (Jira 反射型XSS漏洞)
+- 🎯 CVE-2019-8444 (Jira  存储型XSS漏洞)
+- 🎯 CVE-2017-9506 (Jira URL跳转漏洞)
+
 
 ## J-金山终端安全系统
 - 🎯 金山终端安全管理系统 v8 任意文件上传漏洞-upload.php 

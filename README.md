@@ -237,7 +237,11 @@
 ## Ruijie-锐捷
 - 🎯 RG-EG系列(锐捷-EWEB网管系统命令注入-/guest_auth/guestIsUp.php) `2021-01`
 - 🎯 CNVD-2021-14536(RG-UAC统一上网行为管理审计系统信息泄露漏洞)
-- 
+- 🎯 锐捷EG易网关 branch_passw.php 远程命令执行漏洞
+- 🎯 锐捷EG易网关 cli.php 远程命令执行漏洞
+- 🎯 锐捷EG易网关 download.php 后台任意文件读取漏洞
+
+
 ## Spring
 - 🎯 CVE-xxxx-xxxx(SpringBoot Actuator未授权访问漏洞)
 - 🎯 CVE-2018-1271(Spring MVC目录穿越/遍历漏洞) 

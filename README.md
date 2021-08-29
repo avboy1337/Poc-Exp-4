@@ -33,6 +33,7 @@
 - [Phpstudy](https://github.com/0wlsec/Poc-Exp/#phpstudy)
 - [Q-齐治堡垒机](https://github.com/0wlsec/Poc-Exp/#q-%E9%BD%90%E6%B2%BB%E5%A0%A1%E5%9E%92%E6%9C%BA)
 - [Ruijie-锐捷](https://github.com/0wlsec/Poc-Exp/#ruijie-%E9%94%90%E6%8D%B7)
+- [RuoYi-偌依]()
 - [Spring](https://github.com/0wlsec/Poc-Exp/#spring)
 - [Thinkadmin](https://github.com/0wlsec/Poc-Exp/#thinkadmin)
 - [ThinkPHP3](https://github.com/0wlsec/Poc-Exp/blob/main/README.md#thinkphp-3x)
@@ -245,6 +246,15 @@
 - 🎯 锐捷EG易网关 cli.php 远程命令执行漏洞
 - 🎯 锐捷EG易网关 download.php 后台任意文件读取漏洞
 
+## RuoYi-偌依
+- 🎯 RuoYi 后台模板注入漏洞
+- 🎯 RuoYi <= v4.6.2 (后台)反序列化漏洞-snakeyaml
+- 🎯 RuoYi <= v4.6.1 (后台)SQL注入漏洞-/system/role/list
+- 🎯 RuoYi <= v4.5.0 (后台)任意文件下载漏洞-/common/download/resource
+- 🎯 RuoYi <= v4.4.0 Shiro权限认证绕过漏洞
+- 🎯 RuoYi <= v4.3.0 Shiro反序列化漏洞
+- 🎯 RuoYi <= v4.3.0 Shiro权限认证绕过漏洞
+- 🎯 RuoYi <= v3.2.0 SQL注入漏洞
 
 ## Spring
 - 🎯 CVE-xxxx-xxxx(SpringBoot Actuator未授权访问漏洞)

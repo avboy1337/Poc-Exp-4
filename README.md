@@ -29,6 +29,7 @@
 - [OA-然之协同](https://github.com/0wlsec/Poc-Exp/blob/main/README.md#oa-%E7%84%B6%E4%B9%8B%E5%8D%8F%E5%90%8C)
 - [OA-致远](https://github.com/0wlsec/Poc-Exp/blob/main/README.md#oa-%E8%87%B4%E8%BF%9C)
 - [OA-通达](https://github.com/0wlsec/Poc-Exp/blob/main/README.md#oa-%E9%80%9A%E8%BE%BE)
+- [OA-万户]()
 - [Phpstudy](https://github.com/0wlsec/Poc-Exp/#phpstudy)
 - [Q-齐治堡垒机](https://github.com/0wlsec/Poc-Exp/#q-%E9%BD%90%E6%B2%BB%E5%A0%A1%E5%9E%92%E6%9C%BA)
 - [Ruijie-锐捷](https://github.com/0wlsec/Poc-Exp/#ruijie-%E9%94%90%E6%8D%B7)
@@ -165,6 +166,7 @@
 - 🎯 蓝凌OA 远程命令执行漏洞(SSRF+XMLDecoder=RCE) `2021-05`
 - 🎯 蓝凌OA 远程命令执行漏洞(SSRF+JNDI=RCE) `2021-05`
 - 🎯 CNVD-2020-62240(蓝凌OA SQL注入漏洞-/admin/list/list.aspx) `2021-07`
+
 ## [OA-Weaver-泛微](https://github.com/0wlsec/Poc-Exp/blob/main/demo/OA%E6%B3%9B%E5%BE%AE.md)
 - 🎯 wooyun-2016-0191882(泛微OA SQL注入漏洞-HrmResourceContactEdit.jsp)
 - 🎯 wooyun-2016-0178866(泛微OA 某接口任意SQL命令执行漏洞)
@@ -226,6 +228,9 @@
 
 ## OA-通达
 
+## OA-万户
+- 🎯 万户OA文件上传漏洞-/defaultroot/upload/fileUpload.controller
+- 🎯 万户OAOA文件上传漏洞-/defaultroot/officeserverservlet
 ## Phpstudy
 - 🎯 phpstudy backdoor
 

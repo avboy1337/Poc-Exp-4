@@ -286,10 +286,10 @@
 - 🎯 CVE-2018-18753(Typecho v1.1 反序列化漏洞-install.php)
 
 ## VMware
-- 🎯 vCenter 远程命令执行漏洞(CVE-2021-21972)
-- 🎯 vRealize Operations Manager SSRF(CVE-2021-21975) `2021-04`
-- 🎯 vCenter 远程代码执行漏洞(CVE-2021-21985-回显） `2021-06`
-
+- 🎯 VMware vCenter 远程命令执行漏洞(CVE-2021-21972)
+- 🎯 VMware vRealize Operations Manager SSRF(CVE-2021-21975) `2021-04`
+- 🎯 VMware vCenter 远程代码执行漏洞(CVE-2021-21985-回显） `2021-06`
+- 🎯 VMware vCenter 任意文件读取漏洞-/eam/vib?id=
 
 ## Weblogic
 - 🎯 CVE-2020-14882/CVE-2020-14883(WebLogic 未授权命令执行漏洞)

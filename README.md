@@ -4,6 +4,7 @@
 - [Apache Flink](https://github.com/0wlsec/Poc-Exp/#apache-flink)
 - [Apache OFBiz](https://github.com/0wlsec/Poc-Exp/#apache--ofbiz)
 - [Citrix](https://github.com/0wlsec/Poc-Exp/#citrix)
+- [Cisco]()
 - [Coremail](https://github.com/0wlsec/Poc-Exp/#coremail)
 - [Confluence](https://github.com/0wlsec/Poc-Exp/#confluence)
 - [D-Link](https://github.com/0wlsec/Poc-Exp/#d-link)
@@ -56,6 +57,9 @@
 
 ## Citrix
 - 🎯 CVE-2020-8209(Citrix XenMobile 目录遍历/任意文件读取漏洞)
+
+## Cisco
+- 🎯 CVE-2020-3452(Cisco ASAFTD任意文件读取漏洞)
 
 ## Coremail
 - 🎯 Coremail 邮件系统 action.jsp 任意文件上传漏洞 `2021-05`

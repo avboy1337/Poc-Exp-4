@@ -62,8 +62,8 @@
 - 🎯 CVE-2020-3452(Cisco ASAFTD任意文件读取漏洞)
 
 ## Coremail
-- 🎯 Coremail 邮件系统 action.jsp 任意文件上传漏洞 `2021-05`
-- 🎯 
+- 🎯 ~~Coremail 邮件系统 action.jsp 任意文件上传漏洞 ~~  `fake`
+- 🎯 Coremail 任意用户密码修改漏洞 
 
 ## Confluence
 - 🎯 CVE-2019-3396(Atlassian Confluence 路径穿越漏洞)

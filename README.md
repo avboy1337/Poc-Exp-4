@@ -191,18 +191,19 @@
 - 🎯 CNVD-2019-41610(泛微OA SQL注入漏洞-validate.jsp)
 - 🎯 CNVD-2020-59520(泛微e-bridge 目录遍历/任意文件读取漏洞)
 - 🎯 CNVD-xxxx-xxxxx(泛微OA 数据库配置信息泄露漏洞-DBconfigReader.jsp)
-- 🎯 CNVD-xxxx-xxxxx(泛微OA 日志信息泄露漏洞-gethrmkq.jsp) `2021-01`
-- 🎯 泛微 OA SSRF漏洞 `2021-01-29`
-- 🎯 泛微 Eoffice 数据库配置信息泄露漏洞-mysql_config.ini `2021-02`
-- 🎯 泛微 OA 前台SQL注入漏洞-/js/hrm/getdata.jsp  `2021-05`
-- 🎯 泛微 e-mobile6.6 前台RCE `2021-05`
-- 🎯 泛微 OA 任意文件上传漏洞-sysinterface/codeEdit.jsp `2021-05`
-- 🎯 泛微 OA V9 uploadOperation.jsp 文件上传漏洞 `2021-05`
-- 🎯 泛微 OA WorkflowServiceXml 绕过访问限制漏洞(RCE) `2021-05`
-- 🎯 泛微 OA 任意文件上传漏洞-cloudstore `2021-05`
-- 🎯 泛微 OA v8 任意文件下载漏洞 `2021-06`
-- 🎯 泛微 OA 任意文件上传漏洞-KtreeUploadAction `2021-07`
-- 🎯 泛微 OA 任意文件上传漏洞-ExcelUploadServlet `2021-07`
+- 🎯 CNVD-xxxx-xxxxx(泛微OA 日志信息泄露漏洞-gethrmkq.jsp) 
+- 🎯 泛微 OA SSRF漏洞 
+- 🎯 泛微 Eoffice 数据库配置信息泄露漏洞-mysql_config.ini 
+- 🎯 泛微 OA 前台SQL注入漏洞-/js/hrm/getdata.jsp  
+- 🎯 泛微 e-mobile6.6 前台RCE 
+- 🎯 泛微 OA 任意文件上传漏洞-sysinterface/codeEdit.jsp 
+- 🎯 泛微 OA V9 uploadOperation.jsp 文件上传漏洞 
+- 🎯 泛微 OA WorkflowServiceXml 绕过访问限制漏洞(RCE) 
+- 🎯 泛微 OA 任意文件上传漏洞-cloudstore 
+- 🎯 泛微 OA v8 任意文件下载漏洞 
+- 🎯 泛微 OA 任意文件上传漏洞-KtreeUploadAction 
+- 🎯 泛微 OA 任意文件上传漏洞-ExcelUploadServlet 
+- 🎯 泛微 Eoffice v10 SQL注入漏洞-leave_record.php
 
 ## OA-然之协同
 - 🎯 然之协同系统 v4.6.1 SQL注入

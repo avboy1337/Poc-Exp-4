@@ -3,6 +3,7 @@
 应用如下
 - [Apache Flink](https://github.com/0wlsec/Poc-Exp/#apache-flink)
 - [Apache OFBiz](https://github.com/0wlsec/Poc-Exp/#apache--ofbiz)
+- [Apache HTTP Server]()
 - [Citrix](https://github.com/0wlsec/Poc-Exp/#citrix)
 - [Cisco]()
 - [Coremail](https://github.com/0wlsec/Poc-Exp/#coremail)
@@ -51,7 +52,9 @@
 - 🎯 CVE-2020-17518(Apache Flink 目录遍历/文件写入漏洞-Upload) `2021-01`
 - 🎯 CVE-2020-17519(Apache Flink 目录遍历/文件读取漏洞-jobmanager/logs)b`2021-01`
 
-## Apache  OFBiz
+## Apache HTTP Server
+- 🎯 CVE-2021-41773(Apache HTTP Server 目录穿越漏洞)
+## Apache OFBiz
 - 🎯 CVE-2020-9496 Apache Ofbiz 远程代码执行漏洞 `2021-03`
 - 🎯 CVE-2021-26295 Apache OFBiz 远程代码执行漏洞 `2021-03`
 

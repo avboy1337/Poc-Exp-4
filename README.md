@@ -53,7 +53,8 @@
 - 🎯 CVE-2020-17519(Apache Flink 目录遍历/文件读取漏洞-jobmanager/logs)b`2021-01`
 
 ## Apache HTTP Server
-- 🎯 CVE-2021-41773(Apache HTTP Server 目录穿越漏洞)
+- 🎯 CVE-2021-41773(Apache HTTP Server Path Traversal and Remote Code Execution)
+- 🎯 CVE-2021-42013(Apache HTTP Server Path Traversal and Remote Code Execution)
 ## Apache OFBiz
 - 🎯 CVE-2020-9496 Apache Ofbiz 远程代码执行漏洞 `2021-03`
 - 🎯 CVE-2021-26295 Apache OFBiz 远程代码执行漏洞 `2021-03`

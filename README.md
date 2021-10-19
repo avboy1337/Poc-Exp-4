@@ -243,6 +243,8 @@
 
 
 ## OA-通达
+- 🎯 通达OA v11.9 前台SQL注入-get_datas.php
+
 
 ## OA-万户
 - 🎯 万户OA文件上传漏洞-/defaultroot/upload/fileUpload.controller

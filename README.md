@@ -71,8 +71,9 @@
 - 🎯 Coremail 任意用户密码修改漏洞 
 
 ## Confluence
-- 🎯 CVE-2019-3396(Atlassian Confluence 路径穿越漏洞)
-- 🎯 CVE-2021-26084(Atlassian Confluence OGNL 注入漏洞-可回显) 
+- 🎯 CVE-2019-3396 Atlassian Confluence 路径穿越漏洞
+- 🎯 CVE-2021-26084 Atlassian Confluence OGNL 注入漏洞-可回显)
+- 🎯 CVE-2021-26085 Atlassian Confluence任意文件读取漏洞（受限）
 ## D-Link
 - 🎯 CVE-2020-25078(D-Link DCS-2530L 敏感信息泄露漏洞) `2021-04`
 - 🎯 CVE-2018-6530(D-Link 远程命令执行漏洞)

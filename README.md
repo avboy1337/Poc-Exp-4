@@ -3,6 +3,7 @@
 应用如下
 - [Apache Flink](https://github.com/0wlsec/Poc-Exp/#apache-flink)
 - [Apache HTTP Server](https://github.com/pen4uin/Poc-Exp#apache-http-server)
+- [Apache JSPWiki](https://github.com/pen4uin/Poc-Exp#apache-jspwiki)
 - [Apache OFBiz](https://github.com/0wlsec/Poc-Exp/#apache--ofbiz)
 - [Citrix](https://github.com/0wlsec/Poc-Exp/#citrix)
 - [Cisco]()
@@ -56,6 +57,10 @@
 ## Apache HTTP Server
 - 🎯 CVE-2021-41773(Apache HTTP Server Path Traversal and Remote Code Execution)
 - 🎯 CVE-2021-42013(Apache HTTP Server Path Traversal and Remote Code Execution)
+
+## Apache JSPWiki
+- 🎯 CVE-2021-44140 Apache JSPWiki Arbitrary file deletion on logout
+
 ## Apache OFBiz
 - 🎯 CVE-2020-9496 Apache Ofbiz 远程代码执行漏洞 `2021-03`
 - 🎯 CVE-2021-26295 Apache OFBiz 远程代码执行漏洞 `2021-03`

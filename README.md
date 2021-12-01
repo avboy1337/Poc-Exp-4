@@ -287,13 +287,13 @@
 - 🎯 RuoYi <= v3.2.0 SQL注入漏洞
 
 ## Spring
-- 🎯 CVE-xxxx-xxxx(SpringBoot Actuator未授权访问漏洞)
-- 🎯 CVE-2018-1271(Spring MVC目录穿越/遍历漏洞) 
-- 🎯 CVE-2019-3799(Spring Cloud Config Server 路径穿越/任意文件读取漏洞)
-- 🎯 CVE-2020-5405(Spring Cloud Config Server路径遍历漏洞)
-- 🎯 CVE-2020-5410(Spring Cloud Config目录穿越/遍历漏洞)
-- 🎯 CVE-2020-5412(Spring Cloud Netflix Hystrix Dashboard SSRF漏洞-proxy.stream) `2021-01`
-
+- 🎯 CVE-xxxx-xxxx SpringBoot Actuator未授权访问漏洞
+- 🎯 CVE-2018-1271 Spring MVC目录穿越/遍历漏洞
+- 🎯 CVE-2019-3799 Spring Cloud Config Server 路径穿越/任意文件读取漏洞
+- 🎯 CVE-2020-5405 Spring Cloud Config Server路径遍历漏洞
+- 🎯 CVE-2020-5410 Spring Cloud Config目录穿越/遍历漏洞
+- 🎯 CVE-2020-5412 Spring Cloud Netflix Hystrix Dashboard SSRF漏洞-proxy.stream
+- 🎯 CVE-2021-21234 Spring Boot Actuator Logview Directory Traversal
 ## Thinkadmin
 - 🎯 CVE-2020-25540(目录遍历/任意文件读取漏洞)
 - 🎯 CNVD-2020-33163

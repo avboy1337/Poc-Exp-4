@@ -294,6 +294,7 @@
 - 🎯 CVE-2020-5410 Spring Cloud Config目录穿越/遍历漏洞
 - 🎯 CVE-2020-5412 Spring Cloud Netflix Hystrix Dashboard SSRF漏洞-proxy.stream
 - 🎯 CVE-2021-21234 Spring Boot Actuator Logview Directory Traversal
+
 ## Thinkadmin
 - 🎯 CVE-2020-25540(目录遍历/任意文件读取漏洞)
 - 🎯 CNVD-2020-33163
@@ -317,6 +318,8 @@
 - 🎯 VMware vCenter 任意文件读取漏洞-/eam/vib?id=
 - 🎯 VMware vCenter Server 文件上传漏洞（CVE-2021-22005）
 - 🎯 VMware vCenter SSRF/任意文件读取漏洞-/ui/vcav-bootstrap/rest/vcav-providers/provider-logo?url=
+- 🎯 VMware View Planner 远程代码执行漏洞（CVE-2021-21978）
+
 ## Weblogic
 - 🎯 CVE-2020-14882/CVE-2020-14883(WebLogic 未授权命令执行漏洞)
 - 🎯 CVE-2020-14750 权限绕过

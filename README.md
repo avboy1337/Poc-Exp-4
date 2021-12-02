@@ -97,7 +97,7 @@
 - 🎯 ECShop v3.0 SQL注入漏洞-flow.php 
 - 🎯 ECShop v2.6.1 SQL注入漏洞-uc.php
 - 🎯 ECShop v4.1.0 SQL注入漏洞-/ecshop/delete_cart_goods.php
-
+- 🎯 ECShop v2.7.3 SQL注入漏洞(CVE-2021-43679)
 
 ## Eyou-亿邮
 - 🎯 亿邮 远程命令执行漏洞-/webadm/?q=moni_detail.do&action=gragh

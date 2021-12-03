@@ -5,6 +5,7 @@
 - [Apache HTTP Server](https://github.com/pen4uin/Poc-Exp#apache-http-server)
 - [Apache JSPWiki](https://github.com/pen4uin/Poc-Exp#apache-jspwiki)
 - [Apache OFBiz](https://github.com/0wlsec/Poc-Exp/#apache--ofbiz)
+- [Apache ShenYu](https://github.com/pen4uin/Poc-Exp#apache-shenyu)
 - [Citrix](https://github.com/0wlsec/Poc-Exp/#citrix)
 - [Cisco]()
 - [Coremail](https://github.com/0wlsec/Poc-Exp/#coremail)
@@ -62,8 +63,12 @@
 - 🎯 CVE-2021-44140 Apache JSPWiki Arbitrary file deletion on logout
 
 ## Apache OFBiz
-- 🎯 CVE-2020-9496 Apache Ofbiz 远程代码执行漏洞 `2021-03`
-- 🎯 CVE-2021-26295 Apache OFBiz 远程代码执行漏洞 `2021-03`
+- 🎯 CVE-2020-9496 Apache Ofbiz 远程代码执行漏洞
+- 🎯 CVE-2021-26295 Apache OFBiz 远程代码执行漏洞 
+
+## Apache ShenYu
+- 🎯 CVE-2021-37580 Apache ShenYu 身份验证绕过漏洞
+
 
 ## Citrix
 - 🎯 CVE-2020-8209(Citrix XenMobile 目录遍历/任意文件读取漏洞)
@@ -193,7 +198,7 @@
 - 🎯 蓝凌OA 远程命令执行漏洞(SSRF+JNDI=RCE) `2021-05`
 - 🎯 CNVD-2020-62240(蓝凌OA SQL注入漏洞-/admin/list/list.aspx) `2021-07`
 
-## [OA-Weaver-泛微](https://github.com/0wlsec/Poc-Exp/blob/main/demo/OA%E6%B3%9B%E5%BE%AE.md)
+## OA-Weaver-泛微
 - 🎯 wooyun-2016-0191882(泛微OA SQL注入漏洞-HrmResourceContactEdit.jsp)
 - 🎯 wooyun-2016-0178866(泛微OA 某接口任意SQL命令执行漏洞)
 - 🎯 wooyun-2016-0169872(泛微OA 任意文件遍历&操作漏洞)

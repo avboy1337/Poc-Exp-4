@@ -36,6 +36,7 @@
 - [OA-致远](https://github.com/pen4uin/Poc-Exp/blob/main/README.md#oa-%E8%87%B4%E8%BF%9C)
 - [OA-通达](https://github.com/pen4uin/Poc-Exp/blob/main/README.md#oa-%E9%80%9A%E8%BE%BE)
 - [OA-万户](https://github.com/pen4uin/Poc-Exp#oa-%E4%B8%87%E6%88%B7)
+- [OA-信呼](https://github.com/pen4uin/Poc-Exp#oa-%E4%BF%A1%E5%91%BC)
 - [Phpstudy](https://github.com/pen4uin/Poc-Exp/#phpstudy)
 - [Q-齐治堡垒机](https://github.com/pen4uin/Poc-Exp/#q-%E9%BD%90%E6%B2%BB%E5%A0%A1%E5%9E%92%E6%9C%BA)
 - [Ruijie-锐捷](https://github.com/pen4uin/Poc-Exp/#ruijie-%E9%94%90%E6%8D%B7)
@@ -271,6 +272,11 @@
 - 🎯 万户OA文件上传漏洞-/defaultroot/upload/fileUpload.controller
 - 🎯 万户OA文件上传漏洞-/defaultroot/officeserverservlet
 
+## OA-信呼
+- 🎯 信呼OA v2.1.7 后台SQL注入漏洞-typeid
+- 🎯 信呼OA v2.2.8 后台文件操作->RCE
+- 🎯 信呼OA v2.2.8 后台SQL注入->RCE
+- 🎯 信呼OA v2.3.0 后台配置文件->RCE
 
 ## Phpstudy
 - 🎯 phpstudy backdoor

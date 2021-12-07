@@ -18,6 +18,7 @@
 - [F5 BIG-IP](https://github.com/pen4uin/Poc-Exp/#f5-big-ip)
 - [FineReport-帆软](https://github.com/pen4uin/Poc-Exp/#finereport-%E5%B8%86%E8%BD%AF)
 - [Gitlab](https://github.com/pen4uin/Poc-Exp/#gitlab)
+- [Grafana](https://github.com/pen4uin/Poc-Exp/#grafana)
 - [Harbor](https://github.com/pen4uin/Poc-Exp/#harbor)
 - [H3C](https://github.com/pen4uin/Poc-Exp/#h3c)
 - [K-金蝶](https://github.com/pen4uin/Poc-Exp/blob/main/README.md#k-%E9%87%91%E8%9D%B6)
@@ -134,6 +135,9 @@
 
 ## Gitlab
 - 🎯 Gitlab CI Lint API未授权 SSRF漏洞(CVE-2021-22214)
+
+## Grafana
+- 🎯 Grafana 未授权任意文件读取漏洞-/public/plugins/grafana-clock-panel/
 
 ## Harbor
 - 🎯 CVE-2019-16097 任意管理员注册

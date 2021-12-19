@@ -7,10 +7,12 @@
 - [Apache OFBiz](https://github.com/0wlsec/Poc-Exp/#apache--ofbiz)
 - [Apache ShenYu](https://github.com/pen4uin/Poc-Exp#apache-shenyu)
 - [Apache Storm](https://github.com/pen4uin/Poc-Exp#apache-storm)
+- [Atlassian Confluence](https://github.com/pen4uin/Poc-Exp/#atlassian-confluence)
+- [Atlassian Crowd](https://github.com/pen4uin/Poc-Exp/atlassian-#crowd)
+- [Atlassian Jira](https://github.com/pen4uin/Poc-Exp/#atlassian-jira)
 - [Citrix](https://github.com/pen4uin/Poc-Exp/#citrix)
 - [Cisco](https://github.com/pen4uin/Poc-Exp#cisco)
 - [Coremail](https://github.com/pen4uin/Poc-Exp/#coremail)
-- [Confluence](https://github.com/pen4uin/Poc-Exp/#confluence)
 - [D-Link](https://github.com/pen4uin/Poc-Exp/#d-link)
 - [ECShop](https://github.com/pen4uin/Poc-Exp/blob/main/README.md#ecshop)
 - [Eyou-亿邮](https://github.com/pen4uin/Poc-Exp/#eyou-%E4%BA%BF%E9%82%AE)
@@ -28,7 +30,6 @@
 - [Jboss](https://github.com/pen4uin/Poc-Exp/#jboss)
 - [Jellyfin](https://github.com/pen4uin/Poc-Exp/#jellyfin)
 - [Jetty](https://github.com/pen4uin/Poc-Exp/#jetty)
-- [Jira](https://github.com/pen4uin/Poc-Exp/#jira)
 - [J-金山终端安全系统](https://github.com/pen4uin/Poc-Exp#j-%E9%87%91%E5%B1%B1%E7%BB%88%E7%AB%AF%E5%AE%89%E5%85%A8%E7%B3%BB%E7%BB%9F)
 - [OA-金和](https://github.com/pen4uin/Poc-Exp/#oa-%E9%87%91%E5%92%8C)
 - [OA-蓝凌](https://github.com/pen4uin/Poc-Exp/#oa-%E8%93%9D%E5%87%8C)
@@ -76,6 +77,23 @@
 - 🎯 CVE-2021-38294 Apache Storm 反序列化漏洞
 - 🎯 CVE-2021-40865 Apache Storm 命令注入漏洞
 
+## Atlassian Confluence
+- 🎯 CVE-2019-3396 Atlassian Confluence 路径穿越漏洞
+- 🎯 CVE-2021-26084 Atlassian Confluence OGNL 注入漏洞-可回显)
+- 🎯 CVE-2021-26085 Atlassian Confluence任意文件读取漏洞（受限）
+
+## Atlassian Crowd
+- 🎯 CVE-2019-11580 Atlassian Crowd RCE
+
+## Atlassian Jira
+- 🎯 CVE-2021-26086 (Jira 文件读取漏洞)
+- 🎯 CVE-2020-29453 (Jira 文件读取漏洞)
+- 🎯 CVE-2020-14181 (Jira 用户名枚举漏洞)
+- 🎯 CVE-2019-8451 (Jira 未授权SSRF漏洞)
+- 🎯 CVE-2019-8442 (Jira 未授权+信息泄露漏洞)
+- 🎯 CVE-2019-3402 (Jira 反射型XSS漏洞)
+- 🎯 CVE-2019-8444 (Jira  存储型XSS漏洞)
+- 🎯 CVE-2017-9506 (Jira URL跳转漏洞)
 
 ## Citrix
 - 🎯 CVE-2020-8209(Citrix XenMobile 目录遍历/任意文件读取漏洞)
@@ -87,10 +105,7 @@
 - 🎯 ~~Coremail 邮件系统 action.jsp 任意文件上传漏洞 ~~  `fake`
 - 🎯 Coremail 任意用户密码修改漏洞 
 
-## Confluence
-- 🎯 CVE-2019-3396 Atlassian Confluence 路径穿越漏洞
-- 🎯 CVE-2021-26084 Atlassian Confluence OGNL 注入漏洞-可回显)
-- 🎯 CVE-2021-26085 Atlassian Confluence任意文件读取漏洞（受限）
+
 ## D-Link
 - 🎯 CVE-2020-25078(D-Link DCS-2530L 敏感信息泄露漏洞) `2021-04`
 - 🎯 CVE-2018-6530(D-Link 远程命令执行漏洞)
@@ -180,15 +195,7 @@
 - 🎯 Jetty URI路径限制绕过漏洞（CVE-2021-28169）
 - 🎯 Jetty URI路径限制绕过漏洞（CVE-2021-28164）
 
-## Jira
-- 🎯 CVE-2021-26086 (Jira 文件读取漏洞)
-- 🎯 CVE-2020-29453 (Jira 文件读取漏洞)
-- 🎯 CVE-2020-14181 (Jira 用户名枚举漏洞)
-- 🎯 CVE-2019-8451 (Jira 未授权SSRF漏洞)
-- 🎯 CVE-2019-8442 (Jira 未授权+信息泄露漏洞)
-- 🎯 CVE-2019-3402 (Jira 反射型XSS漏洞)
-- 🎯 CVE-2019-8444 (Jira  存储型XSS漏洞)
-- 🎯 CVE-2017-9506 (Jira URL跳转漏洞)
+
 
 
 ## J-金山终端安全系统

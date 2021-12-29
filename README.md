@@ -1,7 +1,7 @@
 # pocExp
 
 应用如下
-- [Apache APISIX](https://github.com/pen4uinc/Poc-Exp/#apache-apisix)
+- [Apache APISIX](https://github.com/pen4uin/Poc-Exp#apache-apisix)
 - [Apache Flink](https://github.com/pen4uin/Poc-Exp/#apache-flink)
 - [Apache HTTP Server](https://github.com/pen4uin/Poc-Exp#apache-http-server)
 - [Apache JSPWiki](https://github.com/pen4uin/Poc-Exp#apache-jspwiki)

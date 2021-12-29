@@ -1,7 +1,8 @@
 # pocExp
 
 应用如下
-- [Apache Flink](https://github.com/0wlsec/Poc-Exp/#apache-flink)
+- [Apache APISIX](https://github.com/pen4uinc/Poc-Exp/#apache-apisix)
+- [Apache Flink](https://github.com/pen4uin/Poc-Exp/#apache-flink)
 - [Apache HTTP Server](https://github.com/pen4uin/Poc-Exp#apache-http-server)
 - [Apache JSPWiki](https://github.com/pen4uin/Poc-Exp#apache-jspwiki)
 - [Apache OFBiz](https://github.com/0wlsec/Poc-Exp/#apache--ofbiz)
@@ -54,6 +55,9 @@
 - [Yonyou-用友](https://github.com/pen4uin/Poc-Exp/#yonyou-%E7%94%A8%E5%8F%8B)
 
 
+## Apache APISIX
+- 🎯 CVE-2021-45232 Apache APISIX Dashboard Pre-Auth RCE
+  - 📌 [apisix_dashboard_rce](https://github.com/wuppp/apisix_dashboard_rce)
 
 ## Apache Flink
 - 🎯 CVE-2020-17518(Apache Flink 目录遍历/文件写入漏洞-Upload) `2021-01`

@@ -1,6 +1,14 @@
-# pocExp
+# 漏洞研究
 
-应用如下
+关于漏洞研究，我想引用`图南&Veraxy@QAX CERT`这篇文章[《一个简单的 RCE 漏洞到底能挖出什么知识》](https://paper.seebug.org/1500/)中的一段话来给出我的理解：
+
+漏洞研究其实不应该只盯着漏洞本身，漏洞可以扩展的知识点太多了：
+- **偏应用架构**：了解这个软件/组件/中间件是干什么的的、尝试搭建起来写点测试代码看看跑起来的样子;
+- **偏底层原理**：漏洞涉及的相关知识点，可能是Linux/Windows相关的，文件相关的，甚至是某个协议规范、某个算法的实现、某个数据结构、某种设计思想;
+- **偏攻击利用**：漏洞如何EXP化、如何回显搞定不出网的环境、如何让内网设备无感知攻击的存在、如何加载内存马等;
+- **偏漏洞挖掘**：举一反三，寻找类似的利用点，或者这个新的软件/组件/中间件是否能带给你一些新的漏洞挖掘思路。
+
+#### 涉及应用如下
 - [Apache APISIX](https://github.com/pen4uin/Poc-Exp#apache-apisix)
 - [Apache Druid](https://github.com/pen4uin/Poc-Exp#apache-druid)
 - [Apache Flink](https://github.com/pen4uin/Poc-Exp/#apache-flink)
@@ -51,7 +59,7 @@
 - [Spring](https://github.com/pen4uin/Poc-Exp/#spring)
 - [Thinkadmin](https://github.com/pen4uin/Poc-Exp/#thinkadmin)
 - [ThinkPHP3](https://github.com/pen4uin/Poc-Exp/blob/main/README.md#thinkphp-3x)
-- [ThinkPHP5](#)
+- [ThinkPHP5](https://github.com/pen4uin/Poc-Exp/blob/main/README.md#thinkphp-5x)
 - [T-360天擎](https://github.com/pen4uin/Poc-Exp/#t-360%E5%A4%A9%E6%93%8E)
 - [Typecho](https://github.com/pen4uin/Poc-Exp/#typecho)
 - [VMware](https://github.com/pen4uin/Poc-Exp/#vmware)
@@ -372,6 +380,7 @@
 ## ThinkPHP 3.x
 - 🎯 ThinkPHP3.2.x RCE(文件包含->RCE)
 
+## ThinkPHP 5.x
 
 ## T-360天擎
 - 🎯 360天擎 SQL注入漏洞 `2021-05`
@@ -424,6 +433,6 @@
 
 
 
-reference：
+##### Reference
 - https://mp.weixin.qq.com/s/VGMxrw8HD2ZbQHpyL-V_nQ
 

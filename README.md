@@ -220,6 +220,7 @@
 - 🎯 CNVD-2020-62240(蓝凌OA SQL注入漏洞-/admin/list/list.aspx) `2021-07`
 
 ## OA-Weaver-泛微
+- 📌 [weaver_exp](https://github.com/z1un/weaver_exp)
 - 🎯 wooyun-2016-0191882(泛微OA SQL注入漏洞-HrmResourceContactEdit.jsp)
 - 🎯 wooyun-2016-0178866(泛微OA 某接口任意SQL命令执行漏洞)
 - 🎯 wooyun-2016-0169872(泛微OA 任意文件遍历&操作漏洞)
@@ -251,6 +252,7 @@
 - 🎯 泛微 OA 任意文件上传漏洞-ExcelUploadServlet 
 - 🎯 泛微 Eoffice v10 SQL注入漏洞-leave_record.php
 - 🎯 CNVD-2021-49104 泛微 Eoffice v9 文件上传漏洞-UploadFile.php
+
 ## OA-然之协同
 - 🎯 然之协同系统 v4.6.1 SQL注入
 - 🎯 然之协同系统 v4.6.1 SQL注入->文件删除
@@ -259,6 +261,7 @@
 - 🎯 然之协同系统 v4.6.1 喧喧聊天系统 RCE
 
 ## OA-致远
+- 📌 [seeyou_exp](https://github.com/z1un/seeyou_exp)
 - 🎯 致远OA Session泄露漏洞-/yyoa/ext/https/getSessionList.jsp
 - 🎯 致远OA 帆软报表组件 前台XXE漏洞
 - 🎯 致远OA 帆软报表v8.0 后台文件上传漏洞
@@ -278,10 +281,9 @@
 - 🎯 致远OA Fastjson 反序列化漏洞
 
 
-
 ## OA-通达
+- 📌 [TongdaOA-exp](https://github.com/z1un/TongdaOA-exp)
 - 🎯 通达OA v11.9 前台SQL注入-get_datas.php
-
 
 ## OA-万户
 - 🎯 万户OA文件上传漏洞-/defaultroot/upload/fileUpload.controller
@@ -373,7 +375,8 @@
 - 🎯 用友 TruboCRM管理系统 /background/ 三处SQL注入漏洞 `2021-02`
 - 🎯 用友 TruboCRM管理系统 /login/forgetpswd.php SQL注入漏洞 `2021-02`
 - 🎯 CNVD-2020-49261(用友GRP-U8 SQL注入漏洞)
-- 🎯 用友 NC bsh.servlet.BshServlet 远程命令执行漏洞 `2021-05`
+- 🎯 用友 NC bsh.servlet.BshServlet 远程命令执行漏洞 
+  - 📌 [NC-BeanShell-RCE](https://github.com/z1un/NC-BeanShell-RCE)
 - 🎯 用友GRP-U8 SQL注入漏洞 `2021-05`
 - 🎯 用友 NCCloud FS文件管理SQL注入漏洞 `2021-05`
 - 🎯 用友 U8 OA test.jsp SQL注入漏洞 `2021-05`

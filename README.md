@@ -8,7 +8,10 @@
 - **偏攻击利用**：漏洞如何EXP化、如何回显搞定不出网的环境、如何让内网设备无感知攻击的存在、如何加载内存马等;
 - **偏漏洞挖掘**：举一反三，寻找类似的利用点，或者这个新的软件/组件/中间件是否能带给你一些新的漏洞挖掘思路。
 
-#### 涉及应用如下
+其他理解
+- [漫谈漏洞挖掘 evilpan](https://evilpan.com/2021/05/22/bug-hunting/)
+
+#### 应用如下
 - [Apache APISIX](https://github.com/pen4uin/Poc-Exp#apache-apisix)
 - [Apache Druid](https://github.com/pen4uin/Poc-Exp#apache-druid)
 - [Apache Flink](https://github.com/pen4uin/Poc-Exp/#apache-flink)

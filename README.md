@@ -43,6 +43,7 @@
 - [Lanproxy](https://github.com/pen4uin/Poc-Exp/#lanproxy)
 - [Laravel](https://github.com/pen4uin/Poc-Exp/#laravel)
 - [Live800](https://github.com/pen4uin/Poc-Exp/#live800)
+- [MeterSphere](https://github.com/pen4uin/Poc-Exp/#metersphere)
 - [Jboss](https://github.com/pen4uin/Poc-Exp/#jboss)
 - [Jellyfin](https://github.com/pen4uin/Poc-Exp/#jellyfin)
 - [Jetty](https://github.com/pen4uin/Poc-Exp/#jetty)
@@ -232,6 +233,23 @@
 
 ## Live800
 - 🎯 Live800 downloadserver 任意文件下载漏洞 `2021-02`
+
+## MeterSphere
+- 🎯 CVE-2021-45789 MeterSphere Post-auth 文件读取
+     ```shell
+     /api/automation/file/download
+     ```
+- 🎯 CVE-2021-45790 MeterSphere Pre-auth 文件上传
+     ```shell
+     /resource/md/upload
+     ```
+- 🎯 MeterSphere Plugin Pre-auth RCE
+     ```
+     # 上传jar包注册恶意类
+     /plugin/add
+     # 调用类中的customMethod函数、rce
+     /plugin/customMethod
+     ```
 
 ## Jboss
 - 🎯 CVE-2006-5750

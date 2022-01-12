@@ -88,7 +88,7 @@
 ## Apache Flink
 - 🎯 CVE-2020-17518(Apache Flink 目录遍历/文件写入漏洞-Upload) `2021-01`
 - 🎯 CVE-2020-17519(Apache Flink 目录遍历/文件读取漏洞-jobmanager/logs)b`2021-01`
-
+- 🎯 CVE-2021-44228(Apache Flink RCE via Log4shell)
 ## Apache HTTP Server
 - 🎯 CVE-2021-41773(Apache HTTP Server Path Traversal and Remote Code Execution)
 - 🎯 CVE-2021-42013(Apache HTTP Server Path Traversal and Remote Code Execution)

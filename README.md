@@ -8,8 +8,9 @@
 - **偏攻击利用**：漏洞如何EXP化、如何回显搞定不出网的环境、如何让内网设备无感知攻击的存在、如何加载内存马等;
 - **偏漏洞挖掘**：举一反三，寻找类似的利用点，或者这个新的软件/组件/中间件是否能带给你一些新的漏洞挖掘思路。
 
-其他理解
+经验心得
 - [漫谈漏洞挖掘 evilpan](https://evilpan.com/2021/05/22/bug-hunting/)
+- [年轻人如何挖掘第一个RCE](https://paper.seebug.org/1809/)
 
 #### 应用如下
 - [Apache APISIX](https://github.com/pen4uin/Poc-Exp#apache-apisix)

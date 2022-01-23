@@ -40,6 +40,7 @@
 - [Gitlab](https://github.com/pen4uin/Vulnerability_Research/#gitlab)
 - [Grafana](https://github.com/pen4uin/Vulnerability_Research/#grafana)
 - [Harbor](https://github.com/pen4uin/Vulnerability_Research/#harbor)
+- [H2Database](https://github.com/pen4uin/Vulnerability_Research/#h2database)
 - [H3C](https://github.com/pen4uin/Vulnerability_Research/#h3c)
 - [K-金蝶](https://github.com/pen4uin/Vulnerability_Research/blob/main/README.md#k-%E9%87%91%E8%9D%B6)
 - [Lanproxy](https://github.com/pen4uin/Vulnerability_Research/#lanproxy)
@@ -202,9 +203,12 @@
 #### Grafana
 - Grafana 未授权任意文件读取漏洞-/public/plugins/grafana-clock-panel/
 
+
 #### Harbor
 - CVE-2019-16097 任意管理员注册
 
+#### H2Database
+- CVE-2021-42392 H2 Database Console JNDI Injection
 
 #### H3C
 - H3C IMC dynamiccontent.properties.xhtm 远程命令执行漏洞 `2021-05`

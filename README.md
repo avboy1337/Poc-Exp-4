@@ -1,18 +1,3 @@
-# 漏洞研究
-
-关于漏洞研究，我想引用`图南&Veraxy@QAX CERT`这篇文章[《一个简单的 RCE 漏洞到底能挖出什么知识》](https://paper.seebug.org/1500/)中的一段话来给出我的理解：
-
-漏洞研究其实不应该只盯着漏洞本身，漏洞可以扩展的知识点太多了：
-- **偏应用架构**：了解这个软件/组件/中间件是干什么的的、尝试搭建起来写点测试代码看看跑起来的样子;
-- **偏底层原理**：漏洞涉及的相关知识点，可能是Linux/Windows相关的，文件相关的，甚至是某个协议规范、某个算法的实现、某个数据结构、某种设计思想;
-- **偏攻击利用**：漏洞如何EXP化、如何回显搞定不出网的环境、如何让内网设备无感知攻击的存在、如何加载内存马等;
-- **偏漏洞挖掘**：举一反三，寻找类似的利用点，或者这个新的软件/组件/中间件是否能带给你一些新的漏洞挖掘思路。
-
-经验心得
-- [漫谈漏洞挖掘 evilpan](https://evilpan.com/2021/05/22/bug-hunting/)
-- [年轻人如何挖掘第一个RCE 漂亮鼠](https://paper.seebug.org/1809/)
-- [关于漏洞挖掘的一点想法 riusksk(泉哥)](https://mp.weixin.qq.com/s/79k5bxGr1ykCpN4lSeiTqw)
-
 ### Program List
 - [Apache APISIX](https://github.com/pen4uin/vulnerability-lab#apache-apisix)
 - [Apache Druid](https://github.com/pen4uin/vulnerability-lab#apache-druid)
@@ -47,6 +32,7 @@
 - [Laravel](https://github.com/pen4uin/vulnerability-lab/#laravel)
 - [Linux](https://github.com/pen4uin/vulnerability-lab/#linux)
 - [Live800](https://github.com/pen4uin/vulnerability-lab/#live800)
+- [Moodle](https://github.com/pen4uin/vulnerability-lab/#moodle)
 - [MeterSphere](https://github.com/pen4uin/vulnerability-lab/#metersphere)
 - [Jboss](https://github.com/pen4uin/vulnerability-lab/#jboss)
 - [Jellyfin](https://github.com/pen4uin/vulnerability-lab/#jellyfin)
@@ -232,7 +218,8 @@
 
 #### Live800
 - Live800 downloadserver 文件下载
-
+#### Moodle
+- [CVE-2022-0332 SQL injection](https://github.com/numanturle/CVE-2022-0332)
 #### MeterSphere
 - CVE-2021-45789 MeterSphere Post-auth 文件读取
      ```shell

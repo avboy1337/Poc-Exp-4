@@ -1,4 +1,4 @@
-### Program List
+### Java Program List
 - [Apache APISIX](https://github.com/pen4uin/vulnerability-lab#apache-apisix)
 - [Apache Druid](https://github.com/pen4uin/vulnerability-lab#apache-druid)
 - [Apache Flink](https://github.com/pen4uin/vulnerability-lab/#apache-flink)
@@ -412,14 +412,15 @@
   - 📌 [Vm4J](https://github.com/NS-Sp4ce/Vm4J)
 
 #### Weblogic
-- CVE-2020-14882/CVE-2020-14883(WebLogic 未授权命令执行漏洞)
+- [CVE-2020-14882/CVE-2020-14883 权限绕过+ 命令执行 = RCE](https://blog.xray.cool/post/cve-2020-14882&&cve-2020-14883/)
 - CVE-2020-14750 权限绕过
+- [CVE-2022-21350 反序列化](https://mp.weixin.qq.com/s/fFx1kQVfotbOqHlSjSJVMQ)
 
 #### [Yonyou-用友](https://github.com/pen4uin/vulnerability-lab/blob/main/demo/Yonyou.md)
 - 用友人力资源管理软件（e-HR）XXE漏洞
 - 用友 FE协作办公平台1.0信息泄露漏洞
 - 用友 NC 5.7 跨站脚本漏洞
-- 用友 ERP-NC hrss/ELTextFile.load.d 任意文件读取漏洞
+- 用友 ERP-NC hrss/ELTextFile.load.d 文件读取
 - 用友 NC本地文件包含漏洞-NCFindWeb
 - 用友 NC财务系统跨站脚本漏洞
 - 用友 TurboCRM /ajax/getemaildata.php 任意文件读取漏洞

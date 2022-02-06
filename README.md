@@ -253,7 +253,7 @@
 - CVE-2020-5410  Spring Cloud Config Directory Traversal
 - CVE-2020-5412  Spring Cloud Netflix Hystrix Dashboard SSRF
 - CVE-2021-21234 Spring Boot Actuator Logview Directory Traversal
-
+- CVE-2010-1622  Spring Framework RCE
 #### Typecho
 - CVE-xxxx-xxxxx Typecho v1.0 SSRF
 - CVE-2018-18753 Typecho v1.1 反序列化

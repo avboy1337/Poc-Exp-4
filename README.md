@@ -37,6 +37,7 @@
 - [Jellyfin](https://github.com/pen4uin/vulnerability-lab/#jellyfin)
 - [Jetty](https://github.com/pen4uin/vulnerability-lab/#jetty)
 - [Spring](https://github.com/pen4uin/vulnerability-lab/#spring)
+- [Tomcat](https://github.com/pen4uin/vulnerability-lab/#tomcat)
 - [Typecho](https://github.com/pen4uin/vulnerability-lab/#typecho)
 - [Thinkadmin](https://github.com/pen4uin/vulnerability-lab/#thinkadmin)
 - [ThinkPHP3](https://github.com/pen4uin/vulnerability-lab/blob/main/README.md#thinkphp-3x)
@@ -236,6 +237,10 @@
 - CVE-2020-5412  Spring Cloud Netflix Hystrix Dashboard SSRF
 - CVE-2021-21234 Spring Boot Actuator Logview Directory Traversal
 - CVE-2010-1622  Spring Framework RCE
+
+#### Tomcat
+- CVE-2020-9484 Tomcat RCE via Session Persistence
+
 #### Typecho
 - CVE-xxxx-xxxxx Typecho v1.0 SSRF
 - CVE-2018-18753 Typecho v1.1 反序列化

@@ -287,14 +287,14 @@ ___
 - [通达OA](https://github.com/pen4uin/vulnerability-lab#%E9%80%9A%E8%BE%BEoa)
 - [齐治堡垒机](https://github.com/pen4uin/vulnerability-lab#%E9%BD%90%E6%B2%BB%E5%A0%A1%E5%9E%92%E6%9C%BA)
 - [锐捷](https://github.com/pen4uin/vulnerability-lab#%E9%94%90%E6%8D%B7)
-- [若依](https://github.com/pen4uin/vulnerability-lab#%E5%81%8C%E4%BE%9D)
+- [若依](https://github.com/pen4uin/vulnerability-lab#%E8%8B%A5%E4%BE%9D)
 - [天擎](https://github.com/pen4uin/vulnerability-lab#%E5%A4%A9%E6%93%8E)
 - [用友](https://github.com/pen4uin/vulnerability-lab#%E7%94%A8%E5%8F%8B)
 - [深信服](https://github.com/pen4uin/vulnerability-lab#%E6%B7%B1%E4%BF%A1%E6%9C%8D)
 - [亿赛通](https://github.com/pen4uin/vulnerability-lab#%E4%BA%BF%E8%B5%9B%E9%80%9A)
 - [Coremail邮件系统](https://github.com/pen4uin/vulnerability-lab#coremail)
 - [D-Link](https://github.com/pen4uin/vulnerability-lab#d-link)
-
+- [JEECMS](https://github.com/pen4uin/vulnerability-lab#jeecms)
 
 #### 亿邮
 - 亿邮 远程命令执行(CNVD-2021-26422)-/webadm/?q=moni_detail.do&action=gragh
@@ -417,7 +417,7 @@ ___
 - 锐捷EG易网关 远程命令执行-cli.php
 - 锐捷EG易网关 后台任意文件读取-download.php
 
-#### 偌依
+#### 若依
 - RuoYi 后台模板注入
 - RuoYi <= v4.6.2 (后台)反序列化-snakeyaml
 - RuoYi <= v4.6.1 (后台)SQL注入-/system/role/list
@@ -476,5 +476,11 @@ ___
 - CNVD-2018-01084 D-Link DIR-615/645/815 命令注入
 - CVE-2018-17063  D-Link DIR-816 A2 命令注入
 - CVE-2020-24581  D-link DSL-2888A 远程代码执行
+
+#### JEECMS
+- JEECMS 文件上传 + SSTI = RCE
+- JEECMS v9.3 SSRF
+- JEECMS v9.3 文件上传 + SSTI = 文件读取
+- JEECMS v9.3 反序列化(Shiro)
 
 

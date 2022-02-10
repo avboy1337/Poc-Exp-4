@@ -239,7 +239,8 @@
 - CVE-2010-1622  Spring Framework RCE
 
 #### Tomcat
-- CVE-2020-9484 Tomcat RCE via Session Persistence
+- CVE-2020-9484  Tomcat RCE via Session Persistence
+- CVE-2022-23181 Tomcat 权限提升(TOCTOU)
 
 #### Typecho
 - CVE-xxxx-xxxxx Typecho v1.0 SSRF

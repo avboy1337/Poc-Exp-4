@@ -254,10 +254,9 @@
 - CNVD-2020-33163
 
 #### VMware
-- CVE-2021-00000 VMware vCenter 文件读取 - /eam/vib?id=
-- CVE-2021-00000 VMware vCenter SSRF/文件读取 - /ui/vcav-bootstrap/rest/vcav-providers/provider-logo?url=
 - CVE-2021-44228 VMware Product RCE via Log4Shell 
-- CVE-2021-22005 VMware vCenter Server 文件上传
+- CVE-2021-22017 VMware vCenter rhttpproxy Bypass
+- CVE-2021-22005 VMware vCenter 文件上传
 - CVE-2021-21985 VMware vCenter 远程代码执行
 - CVE-2021-21972 VMware vCenter 远程命令执行
 - CVE-2021-21973 VMware vCenter SSRF - /sdk 
@@ -265,7 +264,8 @@
 - CVE-2021-22056 VMware Workspace ONE Access SSRF
 - CVE-2020-4006  VMware Workspace ONE Access 命令注入(post-auth)-/cfg/ssl/installSelfSignedCertificate
 - CVE-2021-21978 VMware View Planner 远程代码执行
-
+- CVE-2021-00000 VMware vCenter 文件读取 - /eam/vib?id=
+- CVE-2021-00000 VMware vCenter SSRF/文件读取 - /ui/vcav-bootstrap/rest/vcav-providers/provider-logo?url=
 
 
 #### Weblogic

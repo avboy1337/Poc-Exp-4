@@ -360,6 +360,7 @@ ___
 - 泛微OA 文件上传-ExcelUploadServlet 
 - 泛微Eoffice v10 SQL注入-leave_record.php
 - 泛微Eoffice v9 文件上传(CNVD-2021-49104)-UploadFile.php
+- 泛微OA SQL注入-/Api/portal/elementEcodeAddon/getSqlData
 
 #### 然之协同OA
 - 然之协同系统 v4.6.1 SQL注入
